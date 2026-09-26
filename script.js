@@ -1419,43 +1419,101 @@
   function initInvolvementForm() {
     if (!elements.involvementForm) return;
 
-    elements.involvementForm.addEventListener('submit', function (e) {
-      e.preventDefault();
+    elements.involvementForm.addEventListener('submit', async function (e) {
+  e.preventDefault();
 
-      const name = document.getElementById('formName').value.trim();
-      const phone = document.getElementById('formPhone').value.trim();
-      const mandal = document.getElementById('formMandal').value;
-      const category = document.getElementById('formCategory').value;
-      const message = document.getElementById('formMessage').value.trim();
-      const consent = document.getElementById('formConsent').checked;
+  const name = document.getElementById('formName').value.trim();
+  const phone = document.getElementById('formPhone').value.trim();
+  const email = document.getElementById('formEmail')?.value.trim() || '';
+  const mandal = document.getElementById('formMandal').value;
+  const category = document.getElementById('formCategory').value;
+  const message = document.getElementById('formMessage').value.trim();
+  const consent = document.getElementById('formConsent').checked;
 
-      // Validation
-      if (!name || !phone || !mandal || !category || !message || !consent) {
-        showFormAlert('error', translations[currentLang].form_error_msg);
-        return;
+  // Validation
+  if (!name || !phone || !mandal || !category || !message || !consent) {
+    showFormAlert(
+      'error',
+      translations[currentLang].form_error_msg
+    );
+    return;
+  }
+
+  // Validate Indian mobile number
+  const phoneDigits = phone.replace(/[^0-9]/g, '');
+
+  if (phoneDigits.length !== 10) {
+    showFormAlert(
+      'error',
+      currentLang === 'te'
+        ? 'దయచేసి సరైన 10 అంకెల మొబైల్ నంబర్ నమోదు చేయండి.'
+        : 'Please enter a valid 10-digit mobile number.'
+    );
+    return;
+  }
+
+  const submitBtn =
+    elements.involvementForm.querySelector('button[type="submit"]');
+
+  const originalText = submitBtn.textContent;
+
+  submitBtn.textContent =
+    translations[currentLang].form_submitting;
+
+  submitBtn.disabled = true;
+
+  try {
+    const response = await fetch(
+      'https://sarva-samruddhi-api.onrender.com/api/submissions',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name: name,
+          mobile: phoneDigits,
+          email: email,
+          mandal: mandal,
+          participationType: category,
+          message: message,
+          consent: consent
+        })
       }
+    );
 
-      // Validate phone number (simple Indian format 10 digits)
-      const phoneDigits = phone.replace(/[^0-9]/g, '');
-      if (phoneDigits.length < 10) {
-        showFormAlert('error', currentLang === 'te' ? "దయచేసి సరైన 10 అంకెల మొబైల్ నంబర్ నమోదు చేయండి." : "Please enter a valid 10-digit mobile number.");
-        return;
-      }
+    const data = await response.json();
 
-      const submitBtn = elements.involvementForm.querySelector('button[type="submit"]');
-      const originalText = submitBtn.textContent;
-      submitBtn.textContent = translations[currentLang].form_submitting;
-      submitBtn.disabled = true;
+    if (!response.ok || !data.success) {
+      throw new Error(
+        data.message || 'Submission failed'
+      );
+    }
 
-      // Simulate clean submission with a unique reference number
-      setTimeout(() => {
-        const refId = Math.floor(100000 + Math.random() * 900000);
-        showFormAlert('success', `${translations[currentLang].form_success_msg}${refId}`);
-        elements.involvementForm.reset();
-        submitBtn.textContent = originalText;
-        submitBtn.disabled = false;
-      }, 700);
-    });
+    // Successful submission
+    showFormAlert(
+      'success',
+      `${translations[currentLang].form_success_msg}${data.referenceId}`
+    );
+
+    // Clear form
+    elements.involvementForm.reset();
+
+  } catch (error) {
+    console.error('Submission error:', error);
+
+    showFormAlert(
+      'error',
+      currentLang === 'te'
+        ? 'సమర్పణ విఫలమైంది. దయచేసి కొంత సమయం తర్వాత మళ్లీ ప్రయత్నించండి.'
+        : 'Unable to submit your request right now. Please try again later.'
+    );
+
+  } finally {
+    submitBtn.textContent = originalText;
+    submitBtn.disabled = false;
+  }
+});
   }
 
   function showFormAlert(type, message) {
