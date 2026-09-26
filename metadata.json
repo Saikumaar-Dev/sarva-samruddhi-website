@@ -1,0 +1,6 @@
+{
+  "name": "Sarva Samrudhhi Independent Party",
+  "description": "Official portal of Sarva Samrudhhi Independent Party (సర్వ సమృద్ధి ఇండిపెండెంట్ పార్టీ), Deverakonda Constituency, Nalgonda District, Telangana, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
