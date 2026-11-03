@@ -8,31 +8,46 @@
 
 /* --- DESIGN TOKENS --- */
 :root {
+  /* Official Party Color Palette */
+  --gold-primary: #F4B400;
+  --gold-metallic: #D49000;
+  --gold-light: #FFF9E6;
+  --gold-gradient: linear-gradient(135deg, #FFDF00 0%, #F4B400 50%, #C68A00 100%);
+  --blue-royal: #123B78;
+  --blue-bright: #1565C0;
+  --blue-dark: #0B1E36;
+  --blue-light: #EBF1FA;
+  --green-party: #008A4B;
   --green-dark: #075B32;
-  --green: #008A4B;
   --green-deep: #054024;
   --green-light: #EBF7EE;
   --green-surface: #F2F8F3;
-  --blue: #123B78;
-  --blue-light: #EBF1FA;
-  --blue-dark: #0B254E;
-  --red: #E31B23;
+  --red-party: #E31B23;
   --red-light: #FDF1F1;
-  --yellow: #F4B400;
-  --yellow-light: #FFF9E6;
-  --yellow-dark: #C68A00;
+  --cyan-party: #00A896;
+  --cyan-bright: #00C2CB;
+  --cyan-light: #E0F7F6;
+
+  /* Aliases for semantic compatibility */
+  --green: var(--green-party);
+  --blue: var(--blue-royal);
+  --red: var(--red-party);
+  --yellow: var(--gold-primary);
+  --yellow-light: var(--gold-light);
+  --yellow-dark: var(--gold-metallic);
+
   --white: #FFFFFF;
-  --text: #17231D;
-  --text-muted: #53645A;
-  --text-subtle: #798C81;
+  --text: #0B1E36;
+  --text-muted: #4A5B53;
+  --text-subtle: #6E8077;
   --border: #DCE5E0;
   --border-subtle: #E8EFEA;
   --bg-page: #FFFFFF;
   --bg-alt: #F8FAF8;
   --bg-tint: #F2F7F4;
-  --shadow-sm: 0 2px 6px rgba(7, 91, 50, 0.05);
-  --shadow-md: 0 6px 18px rgba(7, 91, 50, 0.08);
-  --shadow-lg: 0 14px 34px rgba(7, 91, 50, 0.12);
+  --shadow-sm: 0 2px 6px rgba(11, 30, 54, 0.05);
+  --shadow-md: 0 6px 18px rgba(11, 30, 54, 0.08);
+  --shadow-lg: 0 14px 34px rgba(11, 30, 54, 0.12);
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 16px;
@@ -190,13 +205,25 @@ img {
   text-wrap: balance;
 }
 
-/* Decorative Divider */
+/* Decorative Divider with Official 5-Color Gradient */
 .brand-divider {
-  width: 64px;
+  width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, var(--green-dark), var(--green), var(--yellow));
+  background: linear-gradient(90deg, var(--red-party) 0%, var(--cyan-bright) 25%, var(--green-party) 50%, var(--blue-royal) 75%, var(--gold-primary) 100%);
   border-radius: 2px;
   margin: 16px auto 0 auto;
+}
+
+/* Official Multi-Color Stripe Ribbon */
+.party-stripe-ribbon {
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(90deg, #E31B23 0%, #00C2CB 25%, #008A4B 50%, #123B78 75%, #F4B400 100%);
+}
+
+.party-stripe-border {
+  border-top: 4px solid transparent;
+  border-image: linear-gradient(90deg, #E31B23, #00C2CB, #008A4B, #123B78, #F4B400) 1;
 }
 
 /* Institutional Badge / Micro-label */
@@ -1049,6 +1076,19 @@ img {
   gap: 12px;
   margin-top: 24px;
   width: 100%;
+}
+
+.tree-part-tab-btn:last-child:nth-child(odd) {
+  grid-column: span 2;
+}
+
+@media (max-width: 540px) {
+  .tree-parts-tabs {
+    grid-template-columns: 1fr;
+  }
+  .tree-part-tab-btn:last-child:nth-child(odd) {
+    grid-column: auto;
+  }
 }
 
 .tree-part-tab-btn {
@@ -2530,4 +2570,222 @@ img {
   font-weight: 700;
   color: var(--text);
   margin: 18px 0 8px 0;
+}
+
+/* ==========================================================================
+   OFFICIAL PARTY REGALIA & MERCHANDISE SECTION
+   ========================================================================== */
+.regalia-section {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F5F8F6 50%, #EDF3EF 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.regalia-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 40px;
+}
+
+@media (min-width: 1140px) {
+  .regalia-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 680px) {
+  .regalia-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
+.regalia-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+  position: relative;
+}
+
+.regalia-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(244, 180, 0, 0.5);
+}
+
+.regalia-card-ribbon {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, #E31B23 0%, #00C2CB 25%, #008A4B 50%, #123B78 75%, #F4B400 100%);
+}
+
+.regalia-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #F8FAF8;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.regalia-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 12px;
+  transition: transform 0.4s ease;
+}
+
+.regalia-card:hover .regalia-img {
+  transform: scale(1.04);
+}
+
+.regalia-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(11, 30, 54, 0.88);
+  backdrop-filter: blur(6px);
+  color: var(--white);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--gold-primary);
+  z-index: 2;
+}
+
+.regalia-zoom-hint {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(4px);
+  color: var(--text);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.regalia-card:hover .regalia-zoom-hint {
+  opacity: 1;
+  background: var(--gold-light);
+  color: var(--blue-royal);
+}
+
+.regalia-content {
+  padding: 22px 20px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.regalia-title-te {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--blue-royal);
+  margin-bottom: 2px;
+  line-height: 1.3;
+}
+
+.regalia-title-en {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 12px;
+}
+
+.regalia-specs-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.regalia-specs-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.regalia-spec-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-party);
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.regalia-symbolism {
+  margin-top: auto;
+  padding: 10px 12px;
+  background: var(--gold-light);
+  border: 1px solid rgba(244, 180, 0, 0.35);
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  color: #7A5300;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+/* Hero Section Flag Preview Enhancement */
+.hero-flag-banner {
+  margin-top: 16px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 14px;
+}
+
+.hero-flag-mini-img {
+  width: 52px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
+
+.hero-flag-mini-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-flag-mini-title {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--blue-royal);
+}
+
+.hero-flag-mini-sub {
+  font-size: 0.74rem;
+  color: var(--text-muted);
 }

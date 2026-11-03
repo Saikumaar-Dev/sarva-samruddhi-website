@@ -37,6 +37,7 @@
       nav_about: "About",
       nav_why: "Why Us",
       nav_vision: "Vision",
+      nav_regalia: "Regalia & Flag",
       nav_objectives: "Objectives",
       nav_constituency: "Constituency",
       nav_structure: "Structure",
@@ -47,6 +48,7 @@
       nav_involve: "Get Involved",
       nav_contact: "Contact",
       btn_explore_vision: "Explore Our Vision",
+      btn_explore_regalia: "Official Flag & Regalia",
       btn_about_party: "About the Party",
       btn_get_involved: "Get Involved",
       btn_learn_more: "Focus Areas",
@@ -63,8 +65,46 @@
       hero_stat_independent: "Independent Platform",
       hero_stat_grassroots: "Community-Led Action",
       hero_stat_deverakonda: "Deverakonda Focused",
-      hero_poster_badge_title: "Official Emblem",
-      hero_poster_badge_sub: "Tree of Collective Prosperity",
+      hero_poster_badge_title: "Official Emblem & Flag",
+      hero_poster_badge_sub: "Mature Tree & 5 United Citizens",
+
+      /* Regalia & Merchandise Section */
+      regalia_kicker: "Official Visual Identity & Regalia",
+      regalia_title: "Party Flag, Colors & Authorized Merchandise",
+      regalia_title_te: "అధికారిక పార్టీ గుర్తింపు చిహ్నాలు & వస్త్రధారణ",
+      regalia_subtitle: "Authentic visual emblems representing unity, agrarian dignity, and public participation across Deverakonda Constituency.",
+      reg_flag_title_te: "అధికారిక పార్టీ జెండా",
+      reg_flag_title_en: "Official Party Flag",
+      reg_flag_spec_1: "Golden-yellow main background field",
+      reg_flag_spec_2: "Multicolored border sections: Red, Cyan, Green & Navy",
+      reg_flag_spec_3: "Central circular seal with mature tree & 5 united citizens",
+      reg_flag_spec_4: "Vertical row of 7 flourishing trees on hoist border",
+      reg_flag_spec_5: "Telugu lettering: \"సర్వ సమృద్ధి ఇండిపెండెంట్ పార్టీ\" & \"డా. రాంబాబు రామావత్ నాయక్\"",
+      reg_flag_sym: "Symbolism: Golden prosperity, grassroots constitutional integrity, and unwavering commitment to Deverakonda farmers.",
+      reg_kanduva_title_te: "అధికారిక పార్టీ కండువా",
+      reg_kanduva_title_en: "Official Party Kanduva",
+      reg_kanduva_spec_1: "Cream/white base fabric with golden woven borders",
+      reg_kanduva_spec_2: "Red, cyan, green, and royal blue flanking stripes",
+      reg_kanduva_spec_3: "Dual emblems: English logo on left, Telugu logo on right",
+      reg_kanduva_spec_4: "Golden embroidered tree shield emblem",
+      reg_kanduva_spec_5: "Telugu lettering: \"సర్వ సమృద్ధి\" & \"డా. రాంబాబు రామావత్ నాయక్\" with golden tassels",
+      reg_kanduva_sym: "Symbolism: Traditional Telugu dignity, honor of rural cultivators, and dedication to grassroots welfare.",
+      reg_cap_title_te: "అధికారిక పార్టీ క్యాప్",
+      reg_cap_title_en: "Official Party Cap",
+      reg_cap_spec_1: "Red, blue, green, turquoise & golden-yellow panels",
+      reg_cap_spec_2: "Official circular emblem embroidered on crown",
+      reg_cap_spec_3: "Golden metallic tree shield on visor front",
+      reg_cap_spec_4: "Flanked tree motifs along side headband trim",
+      reg_cap_spec_5: "Embroidered: \"సర్వ సమృద్ధి\" & \"డాక్టర్ రాంబాబు రామావత్ నాయక్\"",
+      reg_cap_sym: "Symbolism: Civic youth mobilization, energetic field volunteers, and active outdoor community service.",
+      reg_tshirt_title_te: "అధికారిక పార్టీ టీ-షర్ట్",
+      reg_tshirt_title_en: "Official Party Polo T-Shirt",
+      reg_tshirt_spec_1: "Golden-yellow breathable pique cotton main body",
+      reg_tshirt_spec_2: "Turquoise, green, royal blue & red side color blocks",
+      reg_tshirt_spec_3: "Circular emblem on left chest & golden tree shield badge",
+      reg_tshirt_spec_4: "Multi-colored tree motifs embroidered on sleeve bands",
+      reg_tshirt_spec_5: "Telugu lettering: \"సర్వ సమృద్ధి\" & \"డాక్టర్ రాంబాబు రామావత్ నాయక్\"",
+      reg_tshirt_sym: "Symbolism: Public unity, modern disciplined political presence, and camaraderie across all generations.",
 
       /* Why Party Exists */
       why_kicker: "Organizational Foundation",
@@ -98,6 +138,8 @@
       tree_tab_branches_sub: "Strategic Objectives",
       tree_tab_leaves: "Leaves (Community)",
       tree_tab_leaves_sub: "Prosperous Citizens",
+      tree_tab_unity: "Citizens (Unity)",
+      tree_tab_unity_sub: "Five Pillars of People",
 
       /* Objectives Section */
       obj_kicker: "Core Policy Pillars",
@@ -236,6 +278,7 @@
       nav_about: "పార్టీ గురించి",
       nav_why: "ఎందుకు?",
       nav_vision: "దృష్టికోణం",
+      nav_regalia: "చిహ్నాలు & జెండా",
       nav_objectives: "లక్ష్యాలు",
       nav_constituency: "నియోజకవర్గం",
       nav_structure: "వ్యవస్థ",
@@ -246,6 +289,7 @@
       nav_involve: "పాల్గొనండి",
       nav_contact: "సంప్రదించండి",
       btn_explore_vision: "మా దృష్టికోణం చూడండి",
+      btn_explore_regalia: "అధికారిక జెండా & చిహ్నాలు",
       btn_about_party: "పార్టీ గురించి",
       btn_get_involved: "మద్దతు ఇవ్వండి",
       btn_learn_more: "పూర్తి వివరాలు",
@@ -262,8 +306,46 @@
       hero_stat_independent: "స్వతంత్ర వేదిక",
       hero_stat_grassroots: "ప్రజా భాగస్వామ్యం",
       hero_stat_deverakonda: "దేవరకొండ కేంద్రం",
-      hero_poster_badge_title: "అధికారిక చిహ్నం",
-      hero_poster_badge_sub: "సామూహిక సమృద్ధి వృక్షం",
+      hero_poster_badge_title: "అధికారిక చిహ్నం & జెండా",
+      hero_poster_badge_sub: "సమృద్ధి వృక్షం & 5 ప్రజామూర్తులు",
+
+      /* Regalia & Merchandise Section */
+      regalia_kicker: "అధికారిక గుర్తింపు చిహ్నాలు & వస్త్రధారణ",
+      regalia_title: "పార్టీ జెండా, రంగులు & అధికారిక వస్త్రధారణ",
+      regalia_title_te: "అధికారిక పార్టీ గుర్తింపు చిహ్నాలు & వస్త్రధారణ",
+      regalia_subtitle: "దేవరకొండ నియోజకవర్గ ప్రజా ఐక్యత, రైతాంగ గౌరవం మరియు ప్రజాస్వామ్య భాగస్వామ్యాన్ని చాటిచెప్పే అధికారిక గుర్తింపు చిహ్నాలు.",
+      reg_flag_title_te: "అధికారిక పార్టీ జెండా",
+      reg_flag_title_en: "Official Party Flag",
+      reg_flag_spec_1: "బంగారు పసుపు రంగు ప్రధాన నేపథ్యం",
+      reg_flag_spec_2: "ఎరుపు, ఆకాశనీలం, ఆకుపచ్చ మరియు ముదురు నీలం అంచులు",
+      reg_flag_spec_3: "వృక్షం మరియు 5 మంది ఐక్యత వ్యక్తులతో కూడిన కేంద్ర వృత్తాకార ముద్ర",
+      reg_flag_spec_4: "జెండా అంచున వరుసగా 7 రంగురంగుల వృక్షాల చిహ్నాలు",
+      reg_flag_spec_5: "తెలుగు అక్షరాలు: \"సర్వ సమృద్ధి ఇండిపెండెంట్ పార్టీ\" మరియు \"డా. రాంబాబు రామావత్ నాయక్\"",
+      reg_flag_sym: "తాత్పర్యం: స్వర్ణ సమృద్ధి, రాజ్యాంగ నిబద్ధత మరియు దేవరకొండ అన్నదాతల హక్కుల రక్షణ.",
+      reg_kanduva_title_te: "అధికారిక పార్టీ కండువా",
+      reg_kanduva_title_en: "Official Party Kanduva",
+      reg_kanduva_spec_1: "తెలుపు/క్రీమ్ రంగు వస్త్రంపై బంగారు రంగు జరీ అంచులు",
+      reg_kanduva_spec_2: "ఎరుపు, ఆకాశనీలం, ఆకుపచ్చ, నీలం రంగుల వరుస చారలు",
+      reg_kanduva_spec_3: "రెండు వైపులా అధికారిక ఆంగ్ల మరియు తెలుగు ముద్రలు",
+      reg_kanduva_spec_4: "బంగారు వర్ణ వృక్ష రక్షక కవచం (షీల్డ్)",
+      reg_kanduva_spec_5: "తెలుగు అక్షరాలు: \"సర్వ సమృద్ధి\" & \"డా. రాంబాబు రామావత్ నాయక్\" మరియు బంగారు కుచ్చులు",
+      reg_kanduva_sym: "తాత్పర్యం: సాంప్రదాయ తెలుగు ఆత్మగౌరవం మరియు అన్నదాతల సేవకు అంకితభావం.",
+      reg_cap_title_te: "అధికారిక పార్టీ క్యాప్",
+      reg_cap_title_en: "Official Party Cap",
+      reg_cap_spec_1: "ఎరుపు, నీలం, ఆకుపచ్చ, ఆకాశనీలం మరియు పసుపు రంగుల భాగాలు",
+      reg_cap_spec_2: "ముందు భాగంలో అధికారిక వృత్తాకార పార్టీ చిహ్నం",
+      reg_cap_spec_3: "వైజర్‌పై బంగారు వర్ణ వృక్ష షీల్డ్ ముద్ర",
+      reg_cap_spec_4: "పక్క భాగాలలో రంగుల వృక్షాల వరుస డిజైన్",
+      reg_cap_spec_5: "ముద్రించబడిన అక్షరాలు: \"సర్వ సమృద్ధి\" & \"డాక్టర్ రాంబాబు రామావత్ నాయక్\"",
+      reg_cap_sym: "తాత్పర్యం: యువజన చైతన్యం, క్షేత్రస్థాయి వాలంటీర్ల నిరంతర ప్రజాసేవ.",
+      reg_tshirt_title_te: "అధికారిక పార్టీ టీ-షర్ట్",
+      reg_tshirt_title_en: "Official Party Polo T-Shirt",
+      reg_tshirt_spec_1: "బంగారు పసుపు రంగు కాటన్ టీ-షర్ట్",
+      reg_tshirt_spec_2: "ఆకాశనీలం, ఆకుపచ్చ, రాయల్ బ్లూ మరియు ఎరుపు రంగు పక్క భాగాలు",
+      reg_tshirt_spec_3: "ఛాతీపై పార్టీ అధికారిక ముద్ర మరియు గోల్డెన్ షీల్డ్ చిహ్నం",
+      reg_tshirt_spec_4: "చేతులపై వరుసగా చెట్ల చిహ్నాల ఎంబ్రాయిడరీ",
+      reg_tshirt_spec_5: "తెలుగు అక్షరాలు: \"సర్వ సమృద్ధి\" & \"డాక్టర్ రాంబాబు రామావత్ నాయక్\"",
+      reg_tshirt_sym: "తాత్పర్యం: సర్వజన ఐక్యత, క్రమశిక్షణతో కూడిన ఆధునిక ప్రజా ప్రతిబింబం.",
 
       /* Why Party Exists */
       why_kicker: "సంస్థాగత పునాది",
@@ -297,6 +379,8 @@
       tree_tab_branches_sub: "అభివృద్ధి ప్రాధాన్యతలు",
       tree_tab_leaves: "ఆకులు (సమాజం)",
       tree_tab_leaves_sub: "సుసంపన్న ప్రజలు",
+      tree_tab_unity: "ఐక్యత (ప్రజలు)",
+      tree_tab_unity_sub: "సామూహిక ప్రజా భాగస్వామ్యం",
 
       /* Objectives Section */
       obj_kicker: "ప్రధాన విధాన స్తంభాలు",
@@ -528,6 +612,31 @@
           "స్వయం ఉపాధి ద్వారా ఆర్థికంగా బలపడే మహిళా లోకం",
           "సొంత ఊళ్లలోనే ఉపాధి అవకాశాలు పొందే ఆత్మవిశ్వాసం గల యువత",
           "శాంతియుత, ఐకమత్యంతో వర్ధిల్లే గ్రామీణ సమాజం"
+        ]
+      }
+    },
+    unity: {
+      key: "unity",
+      en: {
+        kicker: "Metaphor: Five United Citizens",
+        title: "Public Participation & Collective Power",
+        desc: "Standing shoulder-to-shoulder with arms raised in victory beneath the flourishing tree, five citizens represent the sovereign voice of all communities.",
+        points: [
+          "Direct public participation in grassroots governance",
+          "Equal representation for farmers, women, youth, and workers",
+          "Solidarity across all mandals and communities of Deverakonda",
+          "Power remains anchored in the people, not self-serving political elites"
+        ]
+      },
+      te: {
+        kicker: "రూపకం: ఐదుగురు ఐక్యతా ప్రజామూర్తులు",
+        title: "ప్రజా భాగస్వామ్యం & సామూహిక శక్తి",
+        desc: "సమృద్ధి వృక్షం కింద చేతులెత్తి నిలబడిన ఐదుగురు ప్రజామూర్తులు ప్రజాస్వామ్య ఐక్యతను, ప్రజల సార్వభౌమాధికారాన్ని మరియు సమష్టి ప్రగతిని సూచిస్తారు.",
+        points: [
+          "గ్రామ పాలనలో ప్రజల ప్రత్యక్ష భాగస్వామ్యం",
+          "రైతులు, మహిళలు, యువత మరియు శ్రామికులకు సమాన ప్రాతినిధ్యం",
+          "దేవరకొండలోని అన్ని వర్గాలు, తండాలు మరియు మండలాల సమైక్యత",
+          "అధికారం కొద్దిమంది చేతుల్లో కాకుండా ప్రజల చేతుల్లోనే ఉండాలనే సంకల్పం"
         ]
       }
     }
@@ -897,42 +1006,78 @@
     }
   ];
 
-  /* Gallery Archive Data */
+  /* Gallery Archive Data - Official Party Visual Assets */
   const galleryData = [
     {
-      id: "gal-1",
-      image: "assets/images/party_poster.jpg",
-      captionEn: "Official Party Campaign Poster • Deverakonda Constituency",
-      captionTe: "అధికారిక ప్రచార పోస్టర్ • దేవరకొండ నియోజకవర్గం",
-      categoryEn: "Official Poster",
-      categoryTe: "అధికారిక పోస్టర్",
-      span2: false
-    },
-    {
-      id: "gal-2",
-      image: "assets/images/deverakonda_landscape.jpg",
-      captionEn: "Historic Granite Hills and Agricultural Greenery of Deverakonda",
-      captionTe: "చారిత్రక కొండలు మరియు సస్యశ్యామలమైన దేవరకొండ పరిసరాలు",
-      categoryEn: "Constituency Landscape",
-      categoryTe: "నియోజకవర్గ దృశ్యం",
+      id: "gal-flag",
+      image: "assets/flag-official.jpg",
+      captionEn: "Official Party Flag on Flagpole • Golden-yellow background with 7 border trees, circular emblem & Telugu inscription",
+      captionTe: "అధికారిక పార్టీ జెండా • బంగారు పసుపు రంగ వర్ణం, 7 వృక్షాల అంచులు & పార్టీ అధికారిక ముద్ర",
+      categoryEn: "Official Flag",
+      categoryTe: "అధికారిక జెండా",
       span2: true
     },
     {
-      id: "gal-3",
-      image: "assets/images/party_tree_emblem.jpg",
-      captionEn: "The Tree of Collective Prosperity • Official Insignia",
-      captionTe: "సామూహిక సమృద్ధి వృక్షం • పార్టీ అధికారిక ముద్ర",
-      categoryEn: "Party Identity",
+      id: "gal-kanduva",
+      image: "assets/merchandise-kanduva.jpg",
+      captionEn: "Official Party Kanduva (Scarf) • Cream base, golden woven borders, dual emblems & tassels",
+      captionTe: "అధికారిక పార్టీ కండువా • జరీ అంచులు, బంగారు కుచ్చులు & ఉభయ పార్టీ ముద్రలు",
+      categoryEn: "Official Regalia",
+      categoryTe: "అధికారిక వస్త్రధారణ",
+      span2: false
+    },
+    {
+      id: "gal-cap",
+      image: "assets/merchandise-cap.jpg",
+      captionEn: "Official Party Cap • Red, blue, green, turquoise & gold panels with embroidered emblem and visor shield",
+      captionTe: "అధికారిక పార్టీ క్యాప్ • బహుళ వర్ణాల ప్యానెల్స్, ఎంబ్రాయిడరీ ముద్ర & గోల్డెన్ వైజర్ షీల్డ్",
+      categoryEn: "Official Regalia",
+      categoryTe: "అధికారిక వస్త్రధారణ",
+      span2: false
+    },
+    {
+      id: "gal-tshirt",
+      image: "assets/merchandise-tshirt.jpg",
+      captionEn: "Official Party Polo T-Shirt • Golden-yellow body with turquoise, green, blue & red side panels",
+      captionTe: "అధికారిక పార్టీ టీ-షర్ట్ • స్వర్ణ పసుపు రంగు బాడీ, కలర్-బ్లాక్ పక్కభాగాలు & ఛాతీ ముద్ర",
+      categoryEn: "Official Apparel",
+      categoryTe: "అధికారిక వస్త్రధారణ",
+      span2: true
+    },
+    {
+      id: "gal-emblem-banner",
+      image: "assets/logo-banner-official.png",
+      captionEn: "Official Party Insignia Banner • Mature Tree & 5 United Citizens Representing Public Participation",
+      captionTe: "అధికారిక పార్టీ ముద్ర బ్యానర్ • సమృద్ధి వృక్షం & ప్రజాస్వామ్య ఐక్యతను చాటే 5 ప్రజామూర్తులు",
+      categoryEn: "Official Insignia",
       categoryTe: "పార్టీ చిహ్నం",
       span2: false
     },
     {
-      id: "gal-4",
-      image: "assets/images/community_assembly.jpg",
-      captionEn: "Grassroots Village Assembly & Civic Consultation under the Village Tree",
-      captionTe: "గ్రామ వృక్షం నీడన జరుగుతున్న ప్రజా వేదిక మరియు ప్రజాస్వామ్య సమాలోచన",
-      categoryEn: "Public Consultation",
-      categoryTe: "ప్రజా సభ",
+      id: "gal-logo-te",
+      image: "assets/logo-telugu.png",
+      captionEn: "Official Telugu Party Seal • సర్వ సమృద్ధి ఇండిపెండెంట్ పార్టీ",
+      captionTe: "అధికారిక తెలుగు పార్టీ ముద్ర • సర్వ సమృద్ధి ఇండిపెండెంట్ పార్టీ",
+      categoryEn: "Official Emblem",
+      categoryTe: "అధికారిక చిహ్నం",
+      span2: false
+    },
+    {
+      id: "gal-logo-en",
+      image: "assets/logo-english.png",
+      captionEn: "Official English Party Seal • Sarva Samrudhhi Independent Party",
+      captionTe: "అధికారిక ఆంగ్ల పార్టీ ముద్ర • Sarva Samrudhhi Independent Party",
+      categoryEn: "Official Emblem",
+      categoryTe: "అధికారిక చిహ్నం",
+      span2: false
+    },
+    {
+      id: "gal-landscape",
+      image: "assets/images/deverakonda_landscape.jpg",
+      captionEn: "Historic Granite Hills and Agricultural Greenery of Deverakonda Constituency",
+      captionTe: "చారిత్రక కొండలు మరియు సస్యశ్యామలమైన దేవరకొండ పరిసరాలు",
+      categoryEn: "Constituency Landscape",
+      categoryTe: "నియోజకవర్గ దృశ్యం",
       span2: true
     }
   ];
@@ -1021,6 +1166,17 @@
 
     // Update document title
     document.title = translations[lang].site_title;
+
+    // Update logo according to language preference
+    const logoSrc = lang === 'te' ? '/assets/logo-telugu.png' : '/assets/logo-english.png';
+    const headerLogo = document.getElementById('headerLogoImg');
+    const drawerLogo = document.getElementById('drawerLogoImg');
+    const footerLogo = document.getElementById('footerLogoImg');
+    const heroBadgeImg = document.getElementById('heroBadgeImg');
+    if (headerLogo) headerLogo.src = logoSrc;
+    if (drawerLogo) drawerLogo.src = logoSrc;
+    if (footerLogo) footerLogo.src = logoSrc;
+    if (heroBadgeImg) heroBadgeImg.src = lang === 'te' ? '/assets/logo-telugu.png' : '/assets/logo-english.png';
 
     // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -1668,6 +1824,30 @@
       btn.addEventListener('click', () => {
         const type = btn.getAttribute('data-modal-type');
         openGenericModal(type);
+      });
+    });
+
+    // Regalia & Merchandise Card Lightbox Triggers
+    document.querySelectorAll('.regalia-image-wrap').forEach(wrap => {
+      wrap.addEventListener('click', () => {
+        const src = wrap.getAttribute('data-lightbox-src');
+        const caption = wrap.getAttribute('data-lightbox-caption');
+        if (!src) return;
+        const normalized = src.startsWith('/') ? src.slice(1) : src;
+        const foundIndex = galleryData.findIndex(item => item.image === normalized || item.image.includes(normalized) || normalized.includes(item.image));
+        if (foundIndex !== -1) {
+          openLightbox(foundIndex);
+        } else if (elements.lightboxModal) {
+          if (elements.lightboxImg) {
+            elements.lightboxImg.src = src;
+            elements.lightboxImg.alt = caption || 'Party Regalia';
+          }
+          if (elements.lightboxCaption) {
+            elements.lightboxCaption.textContent = caption || '';
+          }
+          elements.lightboxModal.classList.add('open');
+          elements.lightboxModal.setAttribute('aria-hidden', 'false');
+        }
       });
     });
   }
