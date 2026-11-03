@@ -895,8 +895,8 @@
                 <button type="button" class="mandal-tab-btn active" data-mandal="deverakonda" role="tab" aria-selected="true">
                   Deverakonda Town &amp; Mandal
                 </button>
-                <button type="button" class="mandal-tab-btn" data-mandal="chinthapally" role="tab" aria-selected="false">
-                  Chinthapally
+                <button type="button" class="mandal-tab-btn" data-mandal="chintapally" role="tab" aria-selected="false">
+                  Chintapally
                 </button>
                 <button type="button" class="mandal-tab-btn" data-mandal="gundlapally" role="tab" aria-selected="false">
                   Gundlapally (Dindi)
@@ -904,11 +904,17 @@
                 <button type="button" class="mandal-tab-btn" data-mandal="chandampet" role="tab" aria-selected="false">
                   Chandampet
                 </button>
+                <button type="button" class="mandal-tab-btn" data-mandal="peddhadisherlapally" role="tab" aria-selected="false">
+                  Peddhadisherlapally (P.A. Pally)
+                </button>
+                <button type="button" class="mandal-tab-btn" data-mandal="kondamallepally" role="tab" aria-selected="false">
+                  Kondamallepally
+                </button>
+                <button type="button" class="mandal-tab-btn" data-mandal="gudipally" role="tab" aria-selected="false">
+                  Gudipally
+                </button>
                 <button type="button" class="mandal-tab-btn" data-mandal="neredugommu" role="tab" aria-selected="false">
                   Neredugommu
-                </button>
-                <button type="button" class="mandal-tab-btn" data-mandal="papally" role="tab" aria-selected="false">
-                  P.A. Pally
                 </button>
                 <button type="button" class="mandal-tab-btn" data-mandal="gurrampode" role="tab" aria-selected="false">
                   Gurrampode Belt
@@ -1234,68 +1240,128 @@
           </div>
 
           <div class="involvement-grid">
-            <!-- Left Info -->
+            <!-- Left Info & Membership Highlights -->
             <div class="involvement-intro">
+              <div class="inst-badge" style="background: rgba(7, 91, 50, 0.08); color: var(--green-dark); border-color: rgba(7, 91, 50, 0.25); margin-bottom: 12px;">
+                <span>✨ Karyakartha Enrolment &amp; Instant Digital Card</span>
+              </div>
               <h3 data-i18n="involve_intro_title">Be a Part of Deverakonda's Transformation</h3>
               <p class="involvement-intro-desc" data-i18n="involve_intro_desc">
-                Whether you wish to volunteer in your village, offer policy expertise, report a pressing community issue, or attend our open meetings, your participation is welcomed.
+                Register as an official grassroot volunteer (Karyakartha) for Sarva Samrudhhi Independent Party. Complete your application and instantly generate your Provisional Membership Card (Pending Verification) for immediate download and print.
               </p>
 
               <div class="involvement-options-list">
                 <div class="involvement-option-card">
+                  <div class="involvement-option-icon">🪪</div>
+                  <div>
+                    <div class="involvement-option-title" data-i18n="card_step_1_title">Instant Provisional Digital ID</div>
+                    <div class="involvement-option-desc" data-i18n="card_step_1_desc">
+                      Fill the registration form with your photo to receive an instant front-and-back Provisional Karyakartha ID card.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="involvement-option-card">
                   <div class="involvement-option-icon">🌾</div>
                   <div>
-                    <div class="involvement-option-title" data-i18n="opt_volunteer">Volunteer in Your Mandal</div>
+                    <div class="involvement-option-title" data-i18n="opt_volunteer">Village &amp; Mandal Mobilization</div>
                     <div class="involvement-option-desc" data-i18n="opt_volunteer_desc">
-                      Join village-level civic outreach, event organization, and voter awareness.
+                      Join grassroots farmer welfare circles, youth employment drives, and community Grama Vedika assemblies.
                     </div>
                   </div>
                 </div>
 
                 <div class="involvement-option-card">
-                  <div class="involvement-option-icon">📢</div>
+                  <div class="involvement-option-icon">🔒</div>
                   <div>
-                    <div class="involvement-option-title" data-i18n="opt_suggestion">Submit a Local Issue</div>
-                    <div class="involvement-option-desc" data-i18n="opt_suggestion_desc">
-                      Report neglected roads, irrigation shortages, or public facility issues.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="involvement-option-card">
-                  <div class="involvement-option-icon">🏛️</div>
-                  <div>
-                    <div class="involvement-option-title" data-i18n="opt_meeting">Attend Public Assemblies</div>
-                    <div class="involvement-option-desc" data-i18n="opt_meeting_desc">
-                      Participate in forthcoming Grama Vedikas and open constituent dialogues.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="involvement-option-card">
-                  <div class="involvement-option-icon">✉️</div>
-                  <div>
-                    <div class="involvement-option-title" data-i18n="opt_contact">Contact Party Secretariat</div>
-                    <div class="involvement-option-desc" data-i18n="opt_contact_desc">
-                      Direct communication with the executive desk for formal inquiries.
+                    <div class="involvement-option-title" data-i18n="privacy_guarantee_title">Strict Privacy Guarantee</div>
+                    <div class="involvement-option-desc" data-i18n="privacy_guarantee_desc">
+                      No Aadhaar numbers, copies, or sensitive financial data collected. Your constituent details remain secure and protected.
                     </div>
                   </div>
                 </div>
               </div>
+
+              <!-- Quick Lookup Bar for Already-Registered Members -->
+              <div class="member-lookup-bar">
+                <div class="member-lookup-text">
+                  <strong style="display: block;">Already applied for Membership?</strong>
+                  <span>Retrieve &amp; re-print your provisional card anytime.</span>
+                </div>
+                <button type="button" id="lookupCardTriggerBtn" class="member-lookup-btn">
+                  🔍 Find My Card
+                </button>
+              </div>
             </div>
 
-            <!-- Right: Accessible Participation Form -->
+            <!-- Right: Karyakartha Registration Form -->
             <div class="involvement-form-card">
               <form id="involvementForm" novalidate>
+                <!-- Preset Administrative Context Strip -->
+                <div class="preset-location-strip">
+                  <div class="preset-badge-item">
+                    <span class="preset-badge-label">State / రాష్ట్రం</span>
+                    <span class="preset-badge-val">Telangana (తెలంగాణ)</span>
+                  </div>
+                  <div class="preset-badge-item">
+                    <span class="preset-badge-label">District / జిల్లా</span>
+                    <span class="preset-badge-val">Nalgonda (నల్గొండ)</span>
+                  </div>
+                  <div class="preset-badge-item">
+                    <span class="preset-badge-label">Constituency / నియోజకవర్గం</span>
+                    <span class="preset-badge-val">86 - Devarakonda (ST)</span>
+                  </div>
+                </div>
+
+                <!-- Photograph Upload Widget -->
+                <div class="photo-upload-container">
+                  <div class="photo-preview-box" id="photoPreviewBox">
+                    <img id="formPhotoPreview" src="" alt="Passport Photo Preview" class="photo-preview-img" />
+                    <div id="photoPlaceholder" class="photo-placeholder-icon">
+                      👤
+                      <span>Photo</span>
+                    </div>
+                  </div>
+                  <div class="photo-upload-controls">
+                    <label class="photo-upload-label" data-i18n="photo_upload_label">Member Photograph (Passport size) *</label>
+                    <span class="photo-upload-hint" data-i18n="photo_upload_hint">Upload a clear photo for your Provisional Membership ID card (JPG/PNG).</span>
+                    <div class="photo-actions">
+                      <label for="formPhoto" class="photo-btn-browse">
+                        📷 Choose Photo
+                      </label>
+                      <input type="file" id="formPhoto" accept="image/*" style="display: none;" />
+                      <button type="button" id="clearPhotoBtn" class="photo-btn-clear">Remove</button>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="form-row-2">
                   <div class="form-group">
-                    <label for="formName" class="form-label" data-i18n="form_name">Full Name *</label>
+                    <label for="formName" class="form-label" data-i18n="form_name">Full Name (పూర్తి పేరు) *</label>
                     <input type="text" id="formName" class="form-input" required placeholder="Enter your full name" />
                   </div>
 
                   <div class="form-group">
-                    <label for="formPhone" class="form-label" data-i18n="form_phone">Mobile Phone Number *</label>
-                    <input type="tel" id="formPhone" class="form-input" required placeholder="10-digit mobile number" pattern="[0-9]{10}" />
+                    <label for="formPhone" class="form-label" data-i18n="form_phone">Mobile Number (మొబైల్ నంబర్) *</label>
+                    <input type="tel" id="formPhone" class="form-input" required placeholder="10-digit mobile number" pattern="[0-9]{10}" maxlength="10" />
+                  </div>
+                </div>
+
+                <div class="form-row-2">
+                  <div class="form-group">
+                    <label for="formMandal" class="form-label" data-i18n="form_mandal">Select Mandal (మండలం) *</label>
+                    <select id="formMandal" class="form-select" required>
+                      <option value="">-- Choose Mandal --</option>
+                      <!-- Populated dynamically from locations.json -->
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="formVillage" class="form-label" data-i18n="form_village">Village / Ward / Thanda (గ్రామం / తండా) *</label>
+                    <select id="formVillage" class="form-select" required disabled>
+                      <option value="">-- First Select Mandal --</option>
+                      <!-- Populated dynamically based on mandal -->
+                    </select>
                   </div>
                 </div>
 
@@ -1306,47 +1372,34 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="formMandal" class="form-label" data-i18n="form_mandal">Select Mandal / Locality *</label>
-                    <select id="formMandal" class="form-select" required>
-                      <option value="">-- Choose Mandal --</option>
-                      <option value="Deverakonda">Deverakonda Town &amp; Mandal</option>
-                      <option value="Chinthapally">Chinthapally</option>
-                      <option value="Gundlapally">Gundlapally (Dindi)</option>
-                      <option value="Chandampet">Chandampet</option>
-                      <option value="Neredugommu">Neredugommu</option>
-                      <option value="PAPally">P.A. Pally</option>
-                      <option value="Gurrampode">Gurrampode</option>
-                      <option value="Other">Other / Non-Resident Supporter</option>
+                    <label for="formCategory" class="form-label" data-i18n="form_category">Preferred Wing / Service Area *</label>
+                    <select id="formCategory" class="form-select" required>
+                      <option value="Grassroots Karyakartha">Grassroots Karyakartha (గ్రామ కార్యకర్త)</option>
+                      <option value="Youth Wing">Youth Wing (యువజన విభాగం)</option>
+                      <option value="Farmers Welfare Wing">Farmers Welfare Wing (రైతు విభాగం)</option>
+                      <option value="Women Empowerment Wing">Women Empowerment Wing (మహిళా విభాగం)</option>
+                      <option value="Social Media & Outreach">Social Media &amp; Outreach (సామాజిక మాధ్యమం)</option>
+                      <option value="Civic Grievance Cell">Civic Grievance Cell (పౌర సమస్యల విభాగం)</option>
                     </select>
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <label for="formCategory" class="form-label" data-i18n="form_category">Participation Type *</label>
-                  <select id="formCategory" class="form-select" required>
-                    <option value="Volunteer">Volunteer for Village Outreach</option>
-                    <option value="LocalGrievance">Report a Local Grievance / Need</option>
-                    <option value="GramaVedika">Attend Forthcoming Grama Vedika</option>
-                    <option value="GeneralInquiry">General Inquiry / Feedback</option>
-                  </select>
-                </div>
-
-                <div class="form-group">
-                  <label for="formMessage" class="form-label" data-i18n="form_message">Your Message / Details of Local Need *</label>
-                  <textarea id="formMessage" class="form-textarea" required placeholder="Describe your area issue or how you would like to participate..."></textarea>
+                  <label for="formMessage" class="form-label" data-i18n="form_message">Local Priority / Note (Optional)</label>
+                  <textarea id="formMessage" class="form-textarea" style="min-height: 80px;" placeholder="Mention any specific village concern or skill you bring to the party..."></textarea>
                 </div>
 
                 <div class="form-group">
                   <label class="form-checkbox-label">
                     <input type="checkbox" id="formConsent" class="form-checkbox-input" required />
                     <span data-i18n="form_consent">
-                      I confirm that the information provided is accurate and consent to receive official communications from Sarva Samrudhhi Independent Party. (Data is strictly protected).
+                      I solemnly affirm my support for the democratic vision of Sarva Samrudhhi Independent Party. I confirm that the details furnished are true and consent to official constituent communications. (Strictly privacy protected).
                     </span>
                   </label>
                 </div>
 
-                <button type="submit" class="btn-primary" style="width: 100%; padding: 14px;" data-i18n="form_submit_btn">
-                  Submit Participation Request
+                <button type="submit" class="btn-primary" style="width: 100%; padding: 14px; font-size: 1.02rem;" data-i18n="form_submit_btn">
+                  Register as Karyakartha &amp; Generate Provisional ID Card
                 </button>
 
                 <!-- Feedback status message container -->
@@ -1502,11 +1555,14 @@
             <h3 class="footer-col-title">Constituency Belts</h3>
             <ul class="footer-links-list">
               <li><a href="#constituency" class="footer-link">Deverakonda Mandal</a></li>
-              <li><a href="#constituency" class="footer-link">Chinthapally</a></li>
+              <li><a href="#constituency" class="footer-link">Chintapally</a></li>
               <li><a href="#constituency" class="footer-link">Gundlapally (Dindi)</a></li>
               <li><a href="#constituency" class="footer-link">Chandampet</a></li>
+              <li><a href="#constituency" class="footer-link">Peddhadisherlapally (P.A. Pally)</a></li>
+              <li><a href="#constituency" class="footer-link">Kondamallepally</a></li>
+              <li><a href="#constituency" class="footer-link">Gudipally</a></li>
               <li><a href="#constituency" class="footer-link">Neredugommu</a></li>
-              <li><a href="#constituency" class="footer-link">P.A. Pally</a></li>
+              <li><a href="#constituency" class="footer-link">Gurrampode Belt</a></li>
             </ul>
           </div>
 
@@ -1590,22 +1646,219 @@
       </div>
     </div>
 
-    <!-- 3. Generic Legal / Privacy Modal -->
-    <div id="genericModal" class="info-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="genericModalTitle">
-      <div class="info-modal-card">
-        <div class="info-modal-header">
-          <h3 id="genericModalTitle" class="info-modal-title">Notice</h3>
-          <button type="button" id="genericModalClose" class="info-modal-close-btn" aria-label="Close modal">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    <!-- 4. Karyakartha Provisional ID Card Modal -->
+    <div id="karyakarthaCardModal" class="info-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="cardModalTitle">
+      <div class="id-card-modal-content">
+        <div class="id-card-modal-header">
+          <h3 id="cardModalTitle" class="id-card-modal-title">
+            <span>🪪</span>
+            <span data-i18n="card_modal_title">Provisional Membership Card (Pending Verification)</span>
+          </h3>
+          <button type="button" id="cardModalClose" class="info-modal-close-btn" aria-label="Close modal" style="color: #FFFFFF;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
           </button>
         </div>
-        <div id="genericModalBody" class="info-modal-body">
-          <!-- Injected by script.js -->
+
+        <div class="id-card-modal-body">
+          <!-- Official Verification Notice Banner -->
+          <div class="provisional-status-banner">
+            <div class="provisional-status-icon">⚠️</div>
+            <div>
+              <div class="provisional-status-title" data-i18n="provisional_banner_title">
+                PROVISIONAL MEMBERSHIP CARD — PENDING VERIFICATION
+              </div>
+              <div class="provisional-status-desc" data-i18n="provisional_banner_desc">
+                Your application has been registered successfully. This provisional card is generated instantly for your identification while constituent verification by the mandal secretariat is underway. You can print or download this card immediately.
+              </div>
+            </div>
+          </div>
+
+          <!-- Dual Side Cards Display (Front & Back) -->
+          <div class="id-cards-grid">
+            <!-- FRONT CARD -->
+            <div class="id-card-perspective">
+              <div class="id-card-side-tag">
+                <span>📍 FRONT SIDE / ముందు భాగం</span>
+              </div>
+              <div class="id-card-plate id-card-front" id="idCardFrontPlate">
+                <div class="id-card-top-ribbon"></div>
+                <div class="id-card-header">
+                  <img src="/assets/logo-english-official.png" alt="Party Emblem" class="id-card-logo-img" />
+                  <div class="id-card-header-titles">
+                    <span class="id-card-party-en">SARVA SAMRUDDHI INDEPENDENT PARTY</span>
+                    <span class="id-card-party-te">సర్వ సమృద్ధి ఇండిపెండెంట్ పార్టీ</span>
+                  </div>
+                  <div class="id-card-provisional-pill">PROVISIONAL</div>
+                </div>
+
+                <div class="id-card-front-body">
+                  <div class="id-card-watermark"></div>
+                  <div class="id-card-photo-box">
+                    <img id="cardPhotoImg" src="/assets/logo-english-official.png" alt="Member Photo" class="id-card-member-img" />
+                  </div>
+
+                  <div class="id-card-details-col">
+                    <div>
+                      <div id="cardMemberName" class="id-card-member-name">Member Name</div>
+                      <div class="id-card-app-no-badge">
+                        <span>App ID:</span>
+                        <strong id="cardAppNumber">SSIP-86-2026-0000</strong>
+                      </div>
+                    </div>
+
+                    <div class="id-card-data-grid">
+                      <div class="id-card-field-unit">
+                        <span class="id-card-field-k">Constituency:</span>
+                        <span class="id-card-field-v">86 - Devarakonda (ST)</span>
+                      </div>
+                      <div class="id-card-field-unit">
+                        <span class="id-card-field-k">Role / Wing:</span>
+                        <span id="cardMemberRole" class="id-card-field-v">Karyakartha</span>
+                      </div>
+                      <div class="id-card-field-unit">
+                        <span class="id-card-field-k">Mandal:</span>
+                        <span id="cardMemberMandal" class="id-card-field-v">Deverakonda</span>
+                      </div>
+                      <div class="id-card-field-unit">
+                        <span class="id-card-field-k">Village / Ward:</span>
+                        <span id="cardMemberVillage" class="id-card-field-v">Town Ward</span>
+                      </div>
+                      <div class="id-card-field-unit">
+                        <span class="id-card-field-k">District &amp; State:</span>
+                        <span class="id-card-field-v">Nalgonda, Telangana</span>
+                      </div>
+                      <div class="id-card-field-unit">
+                        <span class="id-card-field-k">Registered Date:</span>
+                        <span id="cardIssuedDate" class="id-card-field-v">Nov 2026</span>
+                      </div>
+                    </div>
+
+                    <div class="id-card-front-footer">
+                      <div class="id-card-seal-text">
+                        <strong>Official Applicant Seal</strong><br />
+                        Deverakonda AC (No. 86)
+                      </div>
+                      <div class="id-card-signature-box">
+                        <div class="id-card-sign-name">డాక్టర్ రాంబాబు రామావత్ నాయక్</div>
+                        <div class="id-card-sign-desig">Founding President / Convener</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- BACK CARD -->
+            <div class="id-card-perspective">
+              <div class="id-card-side-tag">
+                <span>📍 BACK SIDE / వెనుక భాగం</span>
+              </div>
+              <div class="id-card-plate id-card-back" id="idCardBackPlate">
+                <div class="id-card-top-ribbon"></div>
+                <div class="id-card-back-header">
+                  <span class="id-card-back-motto">సమష్టి సమృద్ధి • ప్రజాస్వామ్య భాగస్వామ్యం • స్థానిక సాధికారత</span>
+                </div>
+
+                <div class="id-card-back-body">
+                  <div class="id-card-back-left">
+                    <div>
+                      <div class="id-card-pledge-title">Karyakartha Directives / సూత్రాలు:</div>
+                      <ul class="id-card-pledge-list">
+                        <li>Defend constitutional democracy &amp; farmers' welfare.</li>
+                        <li>Maintain total transparency &amp; zero corruption.</li>
+                        <li>Serve all rural hamlets, thandas &amp; urban wards equally.</li>
+                        <li>Participate actively in periodic Grama Vedikas.</li>
+                      </ul>
+                    </div>
+
+                    <div class="id-card-back-disclaimer">
+                      <strong>PROVISIONAL STATUS NOTICE:</strong> This card certifies provisional registration pending administrative committee verification. Not valid as legal government photo ID. Non-transferable.
+                    </div>
+                  </div>
+
+                  <div class="id-card-back-right">
+                    <div class="id-card-qr-box">
+                      <svg class="id-card-qr-svg" viewBox="0 0 100 100" fill="#075B32">
+                        <!-- Precise stylized QR Pattern -->
+                        <rect x="0" y="0" width="30" height="30" fill="#075B32" />
+                        <rect x="5" y="5" width="20" height="20" fill="#FFFFFF" />
+                        <rect x="10" y="10" width="10" height="10" fill="#075B32" />
+
+                        <rect x="70" y="0" width="30" height="30" fill="#075B32" />
+                        <rect x="75" y="5" width="20" height="20" fill="#FFFFFF" />
+                        <rect x="80" y="10" width="10" height="10" fill="#075B32" />
+
+                        <rect x="0" y="70" width="30" height="30" fill="#075B32" />
+                        <rect x="5" y="75" width="20" height="20" fill="#FFFFFF" />
+                        <rect x="10" y="80" width="10" height="10" fill="#075B32" />
+
+                        <rect x="36" y="10" width="8" height="8" />
+                        <rect x="48" y="10" width="8" height="8" />
+                        <rect x="40" y="24" width="14" height="6" />
+                        <rect x="10" y="40" width="12" height="6" />
+                        <rect x="28" y="38" width="10" height="10" />
+                        <rect x="44" y="38" width="12" height="12" />
+                        <rect x="62" y="38" width="8" height="8" />
+                        <rect x="76" y="42" width="14" height="6" />
+                        <rect x="38" y="56" width="10" height="12" />
+                        <rect x="54" y="58" width="14" height="8" />
+                        <rect x="74" y="56" width="10" height="10" />
+                        <rect x="38" y="76" width="8" height="14" />
+                        <rect x="52" y="74" width="14" height="8" />
+                        <rect x="72" y="74" width="10" height="14" />
+                        <rect x="88" y="80" width="8" height="8" />
+                      </svg>
+                    </div>
+                    <span class="id-card-qr-label">Status Check</span>
+                  </div>
+                </div>
+
+                <div class="id-card-back-footer">
+                  <span>Secretariat: Main Road, Deverakonda Town</span>
+                  <span>Helpline: +91 94940 00000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="id-card-modal-actions">
+          <button type="button" id="printIdCardBtn" class="btn-print-card">
+            🖨️ Download / Print Membership Card (PDF)
+          </button>
+          <button type="button" id="closeCardModalBottomBtn" class="btn-secondary" style="padding: 10px 18px;">
+            Close
+          </button>
         </div>
       </div>
     </div>
 
-    <!-- 4. Media Lightbox Modal -->
+    <!-- 5. Card Lookup Modal -->
+    <div id="lookupCardModal" class="info-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="lookupModalTitle">
+      <div class="info-modal-card" style="max-width: 500px;">
+        <div class="info-modal-header">
+          <h3 id="lookupModalTitle" class="info-modal-title">🔍 Find My Provisional Card</h3>
+          <button type="button" id="lookupModalClose" class="info-modal-close-btn" aria-label="Close modal">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+        <div class="info-modal-body" style="padding: 24px;">
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px;">
+            Enter your 10-digit registered mobile number or your application number (e.g., SSIP-86-2026-...) to view and download your card.
+          </p>
+          <div class="form-group" style="margin-bottom: 16px;">
+            <label for="lookupInput" class="form-label">Mobile Number or Application ID</label>
+            <input type="text" id="lookupInput" class="form-input" placeholder="e.g. 9876543210 or SSIP-86-2026-..." />
+          </div>
+          <button type="button" id="searchMemberBtn" class="btn-primary" style="width: 100%; padding: 12px;">
+            Search &amp; Retrieve Card
+          </button>
+          <div id="lookupAlert" class="form-status-alert" role="alert" style="margin-top: 14px;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Media Lightbox Modal -->
     <div id="lightboxModal" class="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Media Lightbox Viewer">
       <button type="button" id="lightboxClose" class="lightbox-btn lightbox-close" aria-label="Close lightbox">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>

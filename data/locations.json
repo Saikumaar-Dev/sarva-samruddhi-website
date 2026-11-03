@@ -1,0 +1,203 @@
+{
+  "state": {
+    "id": "telangana",
+    "nameEn": "Telangana",
+    "nameTe": "తెలంగాణ"
+  },
+  "district": {
+    "id": "nalgonda",
+    "nameEn": "Nalgonda",
+    "nameTe": "నల్గొండ"
+  },
+  "constituency": {
+    "id": "devarakonda_86",
+    "acNumber": 86,
+    "nameEn": "Devarakonda",
+    "nameTe": "దేవరకొండ",
+    "category": "ST Reserved"
+  },
+  "mandals": [
+    {
+      "id": "devarakonda",
+      "canonicalName": "Devarakonda",
+      "nameEn": "Devarakonda",
+      "nameTe": "దేవరకొండ",
+      "status": "Mandal & Municipality",
+      "headquarters": "Devarakonda Municipality",
+      "aliases": ["Deverakonda", "Devarakonda Town", "Deverakonda Mandal"],
+      "villages": [
+        { "nameEn": "Devarakonda (Municipality)", "nameTe": "దేవరకొండ (పురపాలిక)" },
+        { "nameEn": "Mudigonda", "nameTe": "ముదిగొండ" },
+        { "nameEn": "Tatikole", "nameTe": "తాటికోల్" },
+        { "nameEn": "Padamati Pally", "nameTe": "పడమటి పల్లి" },
+        { "nameEn": "Kodadpally", "nameTe": "కోదాడపల్లి" },
+        { "nameEn": "Kacharam", "nameTe": "కాచారం" },
+        { "nameEn": "Mupparam", "nameTe": "ముప్పారం" },
+        { "nameEn": "Kotabavi", "nameTe": "కోటబావి" },
+        { "nameEn": "Seripally", "nameTe": "శేరిపల్లి" },
+        { "nameEn": "Gabbada", "nameTe": "గబ్బడ" },
+        { "nameEn": "Chinthapalli Thanda", "nameTe": "చింతపల్లి తండా" },
+        { "nameEn": "Gundlapally Road Thanda", "nameTe": "గుండ్లపల్లి రోడ్ తండా" }
+      ]
+    },
+    {
+      "id": "chintapally",
+      "canonicalName": "Chintapally",
+      "nameEn": "Chintapally",
+      "nameTe": "చింతపల్లి",
+      "status": "Mandal",
+      "headquarters": "Chintapally",
+      "aliases": ["Chinthapally"],
+      "villages": [
+        { "nameEn": "Chintapally", "nameTe": "చింతపల్లి" },
+        { "nameEn": "Kurmedu", "nameTe": "కుర్మేడు" },
+        { "nameEn": "Vinjamur", "nameTe": "వింజమూరు" },
+        { "nameEn": "Godkondla", "nameTe": "గొడ్కొండ్ల" },
+        { "nameEn": "Madhapur", "nameTe": "మాధాపూర్" },
+        { "nameEn": "Polepally", "nameTe": "పోలేపల్లి" },
+        { "nameEn": "Mallareddypally", "nameTe": "మల్లారెడ్డిపల్లి" },
+        { "nameEn": "Godumakunta", "nameTe": "గోదుమకుంట" },
+        { "nameEn": "Theddu", "nameTe": "తెద్దు" },
+        { "nameEn": "Nasikallu", "nameTe": "నాసికల్లు" },
+        { "nameEn": "Thammadapally", "nameTe": "తమ్మడపల్లి" }
+      ]
+    },
+    {
+      "id": "gundlapally",
+      "canonicalName": "Gundlapally (Dindi)",
+      "nameEn": "Gundlapally (Dindi)",
+      "nameTe": "గుండ్లపల్లి (దిండి)",
+      "status": "Mandal",
+      "headquarters": "Gundlapally / Dindi",
+      "aliases": ["Gundlapally", "Dindi", "Dindi Project"],
+      "villages": [
+        { "nameEn": "Gundlapally", "nameTe": "గుండ్లపల్లి" },
+        { "nameEn": "Dindi", "nameTe": "దిండి" },
+        { "nameEn": "Errapally", "nameTe": "ఎర్రపల్లి" },
+        { "nameEn": "Toggudigudem", "nameTe": "తొగ్గుడిగూడెం" },
+        { "nameEn": "Gonaboinapally", "nameTe": "గొనబోయినపల్లి" },
+        { "nameEn": "Akkenepally", "nameTe": "అక్కెనెపల్లి" },
+        { "nameEn": "Kondapuram", "nameTe": "కొండపురం" },
+        { "nameEn": "Cherukupally", "nameTe": "చెరుకుపల్లి" },
+        { "nameEn": "Venkannagudem", "nameTe": "వెంకన్నగూడెం" },
+        { "nameEn": "Padamati Tanda", "nameTe": "పడమటి తండా" }
+      ]
+    },
+    {
+      "id": "chandampet",
+      "canonicalName": "Chandampet",
+      "nameEn": "Chandampet",
+      "nameTe": "చందంపేట",
+      "status": "Mandal",
+      "headquarters": "Chandampet",
+      "aliases": ["Chandampeta"],
+      "villages": [
+        { "nameEn": "Chandampet", "nameTe": "చందంపేట" },
+        { "nameEn": "Nerabail", "nameTe": "నేరబైల్" },
+        { "nameEn": "Kambalapally", "nameTe": "కంబాలపల్లి" },
+        { "nameEn": "Theddu", "nameTe": "తెద్దు" },
+        { "nameEn": "Yellapuram", "nameTe": "యెల్లాపురం" },
+        { "nameEn": "Thummalabavi", "nameTe": "తుమ్మలబావి" },
+        { "nameEn": "Pogilla", "nameTe": "పొగిళ్ల" },
+        { "nameEn": "Polepally", "nameTe": "పోలేపల్లి" },
+        { "nameEn": "Medaram", "nameTe": "మేడారం" },
+        { "nameEn": "Gopathanda", "nameTe": "గోపాతండా" }
+      ]
+    },
+    {
+      "id": "peddhadisherlapally",
+      "canonicalName": "Peddhadisherlapally",
+      "nameEn": "Peddhadisherlapally",
+      "nameTe": "పెద్దఅడిశర్లపల్లి",
+      "status": "Mandal",
+      "headquarters": "Peddhadisherlapally",
+      "aliases": ["PAPally", "P.A. Pally", "Pedda Adiserla Pally", "Peddadisarlapally"],
+      "villages": [
+        { "nameEn": "Peddhadisherlapally", "nameTe": "పెద్దఅడిశర్లపల్లి" },
+        { "nameEn": "Tirumalagiri", "nameTe": "తిరుమలగిరి" },
+        { "nameEn": "Badlapuram", "nameTe": "బడ్లాపురం" },
+        { "nameEn": "Anjanepally", "nameTe": "అంజనేపల్లి" },
+        { "nameEn": "Vaddipatla", "nameTe": "వద్దిపట్ల" },
+        { "nameEn": "Gannerlapally", "nameTe": "గన్నెర్లపల్లి" },
+        { "nameEn": "Gudapur", "nameTe": "గూడపూర్" },
+        { "nameEn": "Rangareddygudem", "nameTe": "రంగారెడ్డిగూడెం" },
+        { "nameEn": "Chintakuntla", "nameTe": "చింతకుంట" },
+        { "nameEn": "Ramadugu", "nameTe": "రామడుగు" }
+      ]
+    },
+    {
+      "id": "kondamallepally",
+      "canonicalName": "Kondamallepally",
+      "nameEn": "Kondamallepally",
+      "nameTe": "కొండమల్లేపల్లి",
+      "status": "Mandal",
+      "headquarters": "Kondamallepally",
+      "aliases": ["Konda Mallepally", "Mallepally"],
+      "villages": [
+        { "nameEn": "Kondamallepally", "nameTe": "కొండమల్లేపల్లి" },
+        { "nameEn": "Chinnathanda", "nameTe": "చిన్నతండా" },
+        { "nameEn": "Vardhamankota", "nameTe": "వర్ధమానకోట" },
+        { "nameEn": "Narsimhulagudem", "nameTe": "నర్సింహులగూడెం" },
+        { "nameEn": "Donabanda", "nameTe": "దోనబండ" },
+        { "nameEn": "Balanagar", "nameTe": "బాలానగర్" },
+        { "nameEn": "Kothapally", "nameTe": "కొత్తపల్లి" },
+        { "nameEn": "Chennaram", "nameTe": "చెన్నారం" },
+        { "nameEn": "Kolmuntalapally", "nameTe": "కొల్ముంతలపల్లి" }
+      ]
+    },
+    {
+      "id": "gudipally",
+      "canonicalName": "Gudipally",
+      "nameEn": "Gudipally",
+      "nameTe": "గుడిపల్లి",
+      "status": "Mandal",
+      "headquarters": "Gudipally",
+      "aliases": ["Gudipalli"],
+      "villages": [
+        { "nameEn": "Gudipally", "nameTe": "గుడిపల్లి" },
+        { "nameEn": "Chintalapalem", "nameTe": "చింతలపాలెం" },
+        { "nameEn": "Gangadevipally", "nameTe": "గంగాదేవిపల్లి" },
+        { "nameEn": "Boddugudem", "nameTe": "బొద్దుగూడెం" },
+        { "nameEn": "Rajannagudem", "nameTe": "రాజన్నగూడెం" },
+        { "nameEn": "Mittapally", "nameTe": "మిట్టపల్లి" },
+        { "nameEn": "Rayangudem", "nameTe": "రాయన్‌గూడెం" },
+        { "nameEn": "Laxmapuram", "nameTe": "లక్ష్మాపురం" }
+      ]
+    },
+    {
+      "id": "neredugommu",
+      "canonicalName": "Neredugommu",
+      "nameEn": "Neredugommu",
+      "nameTe": "నేరేడుగొమ్ము",
+      "status": "Mandal",
+      "headquarters": "Neredugommu",
+      "aliases": ["Neredugomm"],
+      "villages": [
+        { "nameEn": "Neredugommu", "nameTe": "నేరేడుగొమ్ము" },
+        { "nameEn": "Bachapuram", "nameTe": "బాచాపురం" },
+        { "nameEn": "Buggathanda", "nameTe": "బుగ్గతండా" },
+        { "nameEn": "Yellammagudem", "nameTe": "ఎల్లమ్మగూడెం" },
+        { "nameEn": "Kothapally", "nameTe": "కొత్తపల్లి" },
+        { "nameEn": "Viraswamigudem", "nameTe": "వీరస్వామిగూడెం" },
+        { "nameEn": "Pendlipakala", "nameTe": "పెండ్లిపాకాల" },
+        { "nameEn": "Bakkalingayapally", "nameTe": "బక్కలింగాయపల్లి" }
+      ]
+    }
+  ],
+  "adjacentBelts": [
+    {
+      "id": "gurrampode",
+      "canonicalName": "Gurrampode",
+      "nameEn": "Gurrampode (Constituent Belt)",
+      "nameTe": "గుర్రంపోడు (సరిహద్దు ప్రాంతం)",
+      "status": "Bordering Agrarian Belt",
+      "headquarters": "Gurrampode",
+      "aliases": ["Gurrampode Belt"],
+      "villages": [
+        { "nameEn": "Gurrampode", "nameTe": "గుర్రంపోడు" },
+        { "nameEn": "Koppole", "nameTe": "కొప్పోలు" },
+        { "nameEn": "Chamalapally", "nameTe": "చామలపల్లి" }
+      ]
+    }
+  ]
+}

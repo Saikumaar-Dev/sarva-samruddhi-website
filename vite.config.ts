@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/sarva-samruddhi-website/',
+    base: process.env.GITHUB_PAGES === 'true' ? '/sarva-samruddhi-website/' : './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

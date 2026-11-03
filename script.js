@@ -239,18 +239,29 @@
       opt_contact: "Contact Party Secretariat",
       opt_contact_desc: "Direct communication with the executive desk for formal inquiries.",
 
+      card_step_1_title: "Instant Provisional Digital ID",
+      card_step_1_desc: "Fill the registration form with your photo to receive an instant front-and-back Provisional Karyakartha ID card.",
+      privacy_guarantee_title: "Strict Privacy Guarantee",
+      privacy_guarantee_desc: "No Aadhaar numbers, copies, or sensitive financial data collected. Your constituent details remain secure and protected.",
+      photo_upload_label: "Member Photograph (Passport size) *",
+      photo_upload_hint: "Upload a clear photo for your Provisional Membership ID card (JPG/PNG).",
+      card_modal_title: "Provisional Membership Card (Pending Verification)",
+      provisional_banner_title: "PROVISIONAL MEMBERSHIP CARD — PENDING VERIFICATION",
+      provisional_banner_desc: "Your application has been registered successfully. This provisional card is generated instantly for your identification while constituent verification by the mandal secretariat is underway. You can print or download this card immediately.",
+
       /* Form Labels */
-      form_name: "Full Name *",
-      form_phone: "Mobile Phone Number *",
+      form_name: "Full Name (పూర్తి పేరు) *",
+      form_phone: "Mobile Number (మొబైల్ నంబర్) *",
       form_email: "Email Address (Optional)",
-      form_mandal: "Select Mandal / Locality *",
-      form_category: "Participation Type *",
-      form_message: "Your Message / Details of Local Need *",
-      form_consent: "I confirm that the information provided is accurate and consent to receive official communications from Sarva Samrudhhi Independent Party. (Data is strictly protected).",
-      form_submit_btn: "Submit Participation Request",
-      form_submitting: "Processing...",
-      form_success_msg: "Thank you! Your participation request has been registered with reference ID: SSIP-",
-      form_error_msg: "Please complete all mandatory fields correctly.",
+      form_mandal: "Select Mandal (మండలం) *",
+      form_village: "Village / Ward / Thanda (గ్రామం / తండా) *",
+      form_category: "Preferred Wing / Service Area *",
+      form_message: "Local Priority / Note (Optional)",
+      form_consent: "I solemnly affirm my support for the democratic vision of Sarva Samrudhhi Independent Party. I confirm that the details furnished are true and consent to official constituent communications. (Strictly privacy protected).",
+      form_submit_btn: "Register as Karyakartha & Generate Provisional ID Card",
+      form_submitting: "Generating Provisional Card...",
+      form_success_msg: "Registration successful! Your Provisional Membership Card is ready below. Application ID: ",
+      form_error_msg: "Please complete all mandatory fields (Full Name, Mobile Number, Mandal, Village, and Consent).",
 
       /* Contact Section */
       contact_kicker: "Connect With Us",
@@ -480,18 +491,29 @@
       opt_contact: "పార్టీ సెక్రటేరియట్‌ను కలవండి",
       opt_contact_desc: "అధికారిక విచారణలు లేదా సంప్రదింపుల కోసం నేరుగా సంప్రదించండి.",
 
+      card_step_1_title: "తక్షణ ప్రొవిజనల్ డిజిటల్ ఐడీ",
+      card_step_1_desc: "మీ ఫోటోతో దరఖాస్తును సమర్పించిన వెంటనే రెండు వైపులా ముద్రించదగిన ప్రొవిజనల్ కార్యకర్త గుర్తింపు కార్డును పొందండి.",
+      privacy_guarantee_title: "కచ్చితమైన గోప్యతా హామీ",
+      privacy_guarantee_desc: "ఆధార్ నంబర్లు, బ్యాంకు వివరాలు సేకరించబడవు. మీ వ్యక్తిగత సమాచారం పూర్తిగా సురక్షితం.",
+      photo_upload_label: "సభ్యుని పాస్‌పోర్ట్ సైజు ఫోటో *",
+      photo_upload_hint: "మీ ప్రొవిజనల్ సభ్యత్వ కార్డు కోసం స్పష్టమైన ఫోటోను అప్‌లోడ్ చేయండి (JPG/PNG).",
+      card_modal_title: "ప్రొవిజనల్ సభ్యత్వ కార్డు (పరిశీలనలో ఉంది)",
+      provisional_banner_title: "ప్రొవిజనల్ సభ్యత్వ కార్డు — పరిశీలనలో ఉంది",
+      provisional_banner_desc: "మీ సభ్యత్వ దరఖాస్తు విజయవంతంగా నమోదైంది. మండల సచివాలయ పరిశీలన పూర్తయ్యే వరకు మీ గుర్తింపు కోసం ఈ తాత్కాలిక కార్డు వెంటనే జారీ చేయబడింది. మీరు దీనిని డౌన్‌లోడ్ లేదా ప్రింట్ చేసుకోవచ్చు.",
+
       /* Form Labels */
-      form_name: "పూర్తి పేరు *",
-      form_phone: "మొబైల్ ఫోన్ నంబర్ *",
+      form_name: "పూర్తి పేరు (Full Name) *",
+      form_phone: "మొబైల్ నంబర్ (Mobile Number) *",
       form_email: "ఈమెయిల్ చిరునామా (ఐచ్ఛికం)",
-      form_mandal: "మండలం / ప్రాంతాన్ని ఎంచుకోండి *",
-      form_category: "భాగస్వామ్య విభాగం *",
-      form_message: "మీ సందేశం / సమస్య వివరాలు *",
-      form_consent: "నేను అందించిన సమాచారం సరైనదని ధృవీకరిస్తున్నాను మరియు అధికారిక సందేశాలను స్వీకరించడానికి అంగీకరిస్తున్నాను.",
-      form_submit_btn: "వివరాలను సమర్పించండి",
-      form_submitting: "సమర్పిస్తున్నాము...",
-      form_success_msg: "ధన్యవాదాలు! మీ అభ్యర్థన విజయవంతంగా నమోదైంది. రిఫరెన్స్ నంబర్: SSIP-",
-      form_error_msg: "దయచేసి అన్ని తప్పనిసరి వివరాలను సరిగ్గా పూరించండి.",
+      form_mandal: "మండలాన్ని ఎంచుకోండి *",
+      form_village: "గ్రామం / వార్డు / తండా *",
+      form_category: "సేవా విభాగం / ప్రాధాన్యత *",
+      form_message: "స్థానిక సమస్య / ప్రత్యేక నైపుణ్యం (ఐచ్ఛికం)",
+      form_consent: "సర్వ సమృద్ధి స్వతంత్ర పార్టీ ప్రజాస్వామ్య సిద్ధాంతాలకు నా సంపూర్ణ మద్దతును ప్రకటిస్తున్నాను. నేను అందించిన వివరాలు సత్యమని మరియు అధికారిక సమాచార ప్రసారాలకు అంగీకరిస్తున్నాను.",
+      form_submit_btn: "కార్యకర్తగా నమోదు చేసుకోండి & ప్రొవిజనల్ ఐడీ కార్డ్ పొందండి",
+      form_submitting: "కార్డు సిద్ధమవుతోంది...",
+      form_success_msg: "సభ్యత్వ నమోదు విజయవంతమైంది! మీ ప్రొవిజనల్ గుర్తింపు కార్డు సిద్ధంగా ఉంది. దరఖాస్తు సంఖ్య: ",
+      form_error_msg: "దయచేసి అన్ని తప్పనిసరి వివరాలను (పూర్తి పేరు, మొబైల్, మండలం, గ్రామం మరియు అంగీకారం) పూరించండి.",
 
       /* Contact Section */
       contact_kicker: "మమ్మల్ని సంప్రదించండి",
@@ -665,11 +687,11 @@
       profileTe: "నియోజకవర్గానికి పరిపాలనా మరియు వాణిజ్య కేంద్రం; చారిత్రక కొండలు మరియు వ్యాపార కేంద్రాలతో కూడిన ప్రధాన పట్టణం.",
       partyNode: "Central Secretariat Liaison Cell"
     },
-    chinthapally: {
-      id: "chinthapally",
-      nameEn: "Chinthapally Mandal",
+    chintapally: {
+      id: "chintapally",
+      nameEn: "Chintapally Mandal",
       nameTe: "చింతపల్లి మండలం",
-      headquarters: "Chinthapally",
+      headquarters: "Chintapally",
       focusAreasEn: [
         "Reliable agricultural power supply during cultivation cycles",
         "Primary health centre staffing and round-the-clock doctors",
@@ -684,7 +706,28 @@
       ],
       profileEn: "Key agrarian belt known for diverse cash crops, vibrant horticulture, and numerous traditional rural settlements.",
       profileTe: "వాణిజ్య పంటలు, కూరగాయల సాగు మరియు సాంప్రదాయ గ్రామీణ ఆవాసాలకు ప్రసిద్ధి చెందిన వ్యవసాయ మండలం.",
-      partyNode: "Chinthapally Mandal Coordination Committee"
+      partyNode: "Chintapally Mandal Coordination Committee"
+    },
+    chinthapally: {
+      id: "chintapally",
+      nameEn: "Chintapally Mandal",
+      nameTe: "చింతపల్లి మండలం",
+      headquarters: "Chintapally",
+      focusAreasEn: [
+        "Reliable agricultural power supply during cultivation cycles",
+        "Primary health centre staffing and round-the-clock doctors",
+        "Highway safety and link roads connecting interior hamlets",
+        "Cold storage facilities for local tomato and vegetable produce"
+      ],
+      focusAreasTe: [
+        "పంట కాలంలో నిరంతర నాణ్యమైన వ్యవసాయ విద్యుత్ సరఫరా",
+        "ప్రాథమిక ఆరోగ్య కేంద్రంలో 24 గంటల వైద్యుల లభ్యత",
+        "అంతర్గత గ్రామాలు, తండాలకు సురక్షితమైన లింక్ రోడ్లు",
+        "టమాట మరియు కూరగాయల రైతుల కోసం కోల్డ్ స్టోరేజ్ సౌకర్యం"
+      ],
+      profileEn: "Key agrarian belt known for diverse cash crops, vibrant horticulture, and numerous traditional rural settlements.",
+      profileTe: "వాణిజ్య పంటలు, కూరగాయల సాగు మరియు సాంప్రదాయ గ్రామీణ ఆవాసాలకు ప్రసిద్ధి చెందిన వ్యవసాయ మండలం.",
+      partyNode: "Chintapally Mandal Coordination Committee"
     },
     gundlapally: {
       id: "gundlapally",
@@ -728,6 +771,90 @@
       profileTe: "గిరిజన సంస్కృతి, అటవీ మరియు కొండ ప్రాంతాలతో కూడిన మండలం; సమగ్ర మౌలిక వసతులు అవసరమైన ప్రాంతం.",
       partyNode: "Chandampet Tribal & Community Council"
     },
+    peddhadisherlapally: {
+      id: "peddhadisherlapally",
+      nameEn: "Peddhadisherlapally (P.A. Pally)",
+      nameTe: "పెద్దఅడిశర్లపల్లి (పి.ఎ. పల్లి)",
+      headquarters: "Peddhadisherlapally",
+      focusAreasEn: [
+        "Irrigation tail-end water supply protection for farming",
+        "Establishment of agro-processing and warehousing clusters",
+        "Quality drinking water plant maintenance in all wards",
+        "Government junior college facilities for rural youth"
+      ],
+      focusAreasTe: [
+        "చివరి ఆయకట్టు రైతులకు సాగునీరు సక్రమంగా అందేలా చూడడం",
+        "వ్యవసాయ గోదాములు మరియు ధాన్యం నిల్వ కేంద్రాల ఏర్పాటు",
+        "అన్ని గ్రామాల్లో ఆర్వో ప్లాంట్ల నిరంతర నిర్వహణ",
+        "స్థానిక విద్యార్థుల కోసం ప్రభుత్వ జూనియర్ కళాశాల వసతులు"
+      ],
+      profileEn: "Dynamic rural intersection known for extensive cotton, paddy, and pulse cultivation.",
+      profileTe: "పత్తి, వరి మరియు అపరాల సాగుకు ప్రసిద్ధి చెందిన ప్రధాన గ్రామీణ కూడలి మండలం.",
+      partyNode: "P.A. Pally Constituency Liaison Unit"
+    },
+    papally: {
+      id: "peddhadisherlapally",
+      nameEn: "Peddhadisherlapally (P.A. Pally)",
+      nameTe: "పెద్దఅడిశర్లపల్లి (పి.ఎ. పల్లి)",
+      headquarters: "Peddhadisherlapally",
+      focusAreasEn: [
+        "Irrigation tail-end water supply protection for farming",
+        "Establishment of agro-processing and warehousing clusters",
+        "Quality drinking water plant maintenance in all wards",
+        "Government junior college facilities for rural youth"
+      ],
+      focusAreasTe: [
+        "చివరి ఆయకట్టు రైతులకు సాగునీరు సక్రమంగా అందేలా చూడడం",
+        "వ్యవసాయ గోదాములు మరియు ధాన్యం నిల్వ కేంద్రాల ఏర్పాటు",
+        "అన్ని గ్రామాల్లో ఆర్వో ప్లాంట్ల నిరంతర నిర్వహణ",
+        "స్థానిక విద్యార్థుల కోసం ప్రభుత్వ జూనియర్ కళాశాల వసతులు"
+      ],
+      profileEn: "Dynamic rural intersection known for extensive cotton, paddy, and pulse cultivation.",
+      profileTe: "పత్తి, వరి మరియు అపరాల సాగుకు ప్రసిద్ధి చెందిన ప్రధాన గ్రామీణ కూడలి మండలం.",
+      partyNode: "P.A. Pally Constituency Liaison Unit"
+    },
+    kondamallepally: {
+      id: "kondamallepally",
+      nameEn: "Kondamallepally Mandal",
+      nameTe: "కొండమల్లేపల్లి మండలం",
+      headquarters: "Kondamallepally",
+      focusAreasEn: [
+        "Highway junction transit infrastructure & market accessibility",
+        "Canal distributary repairs for agrarian tail-end farmers",
+        "Safe fluoride-free drinking water networks to all hamlets",
+        "Primary health center round-the-clock emergency medical response"
+      ],
+      focusAreasTe: [
+        "రవాణా మరియు మార్కెట్ సౌకర్యాల ఆధునీకరణ",
+        "రైతుల కోసం డిస్ట్రిబ్యూటరీ కాలువల మరమ్మతులు",
+        "అన్ని గ్రామాలకు ఫ్లోరైడ్ రహిత సురక్షిత మంచినీటి సరఫరా",
+        "ప్రాథమిక ఆరోగ్య కేంద్రంలో 24 గంటల అత్యవసర వైద్య సేవలు"
+      ],
+      profileEn: "Strategic commercial transit hub connecting major state highways with flourishing rural agricultural thandas.",
+      profileTe: "ప్రధాన రహదారుల కూడలి మరియు వ్యవసాయ ఉత్పత్తుల వ్యాపార కేంద్రంగా అభివృద్ధి చెందుతున్న మండలం.",
+      partyNode: "Kondamallepally Mandal Liaison Desk"
+    },
+    gudipally: {
+      id: "gudipally",
+      nameEn: "Gudipally Mandal",
+      nameTe: "గుడిపల్లి మండలం",
+      headquarters: "Gudipally",
+      focusAreasEn: [
+        "Irrigation lift connectivity and minor irrigation tank desiltation",
+        "Continuous electricity supply for tube-well farming",
+        "All-weather blacktop roads connecting interior thandas",
+        "Local youth sports and competitive exam preparation center"
+      ],
+      focusAreasTe: [
+        "ఎత్తిపోతల సాగునీరు మరియు గ్రామ చెరువుల పూడికతీత",
+        "బోరుబావుల ఆధారిత వ్యవసాయానికి నిరంతర నాణ్యమైన విద్యుత్",
+        "మారుమూల తండాలకు పక్కా రోడ్డు రవాణా సౌకర్యాలు",
+        "గ్రామీణ యువత కోసం పోటీ పరీక్షల స్టడీ సెంటర్"
+      ],
+      profileEn: "Vibrant agrarian heartland characterized by hardworking farming communities and dynamic village panchayats.",
+      profileTe: "కష్టజీవులైన రైతాంగం మరియు చైతన్యవంతమైన పంచాయతీలతో కూడిన సమగ్ర వ్యవసాయ మండలం.",
+      partyNode: "Gudipally Mandal Coordination Cell"
+    },
     neredugommu: {
       id: "neredugommu",
       nameEn: "Neredugommu Mandal",
@@ -748,27 +875,6 @@
       profileEn: "Flourishing adjacent to Krishna backwaters, with immense agrarian, inland fisheries, and rural potential.",
       profileTe: "కృష్ణా నదీ బ్యాక్ వాటర్ సమీపంలోని మండలం; వ్యవసాయం మరియు మత్స్య సంపదకు అనువైన ప్రాంతం.",
       partyNode: "Neredugommu Rural Outreach Desk"
-    },
-    papally: {
-      id: "papally",
-      nameEn: "Pedda Adiserla Pally (P.A. Pally)",
-      nameTe: "పెద్ద అడిశర్లపల్లి (పి.ఎ. పల్లి)",
-      headquarters: "P.A. Pally",
-      focusAreasEn: [
-        "Irrigation tail-end water supply protection for farming",
-        "Establishment of agro-processing and warehousing clusters",
-        "Quality drinking water plant maintenance in all wards",
-        "Government junior college facilities for rural youth"
-      ],
-      focusAreasTe: [
-        "చివరి ఆయకట్టు రైతులకు సాగునీరు సక్రమంగా అందేలా చూడడం",
-        "వ్యవసాయ గోదాములు మరియు ధాన్యం నిల్వ కేంద్రాల ఏర్పాటు",
-        "అన్ని గ్రామాల్లో ఆర్వో ప్లాంట్ల నిరంతర నిర్వహణ",
-        "స్థానిక విద్యార్థుల కోసం ప్రభుత్వ జూనియర్ కళాశాల వసతులు"
-      ],
-      profileEn: "Dynamic rural intersection known for extensive cotton, paddy, and pulse cultivation.",
-      profileTe: "పత్తి, వరి మరియు అపరాల సాగుకు ప్రసిద్ధి చెందిన ప్రధాన గ్రామీణ కూడలి మండలం.",
-      partyNode: "P.A. Pally Constituency Liaison Unit"
     },
     gurrampode: {
       id: "gurrampode",
@@ -1139,7 +1245,30 @@
     genericModalBody: document.getElementById('genericModalBody'),
     genericModalClose: document.getElementById('genericModalClose'),
     involvementForm: document.getElementById('involvementForm'),
-    formStatusAlert: document.getElementById('formStatusAlert')
+    formStatusAlert: document.getElementById('formStatusAlert'),
+    formMandal: document.getElementById('formMandal'),
+    formVillage: document.getElementById('formVillage'),
+    formPhoto: document.getElementById('formPhoto'),
+    formPhotoPreview: document.getElementById('formPhotoPreview'),
+    photoPlaceholder: document.getElementById('photoPlaceholder'),
+    clearPhotoBtn: document.getElementById('clearPhotoBtn'),
+    karyakarthaCardModal: document.getElementById('karyakarthaCardModal'),
+    cardModalClose: document.getElementById('cardModalClose'),
+    closeCardModalBottomBtn: document.getElementById('closeCardModalBottomBtn'),
+    printIdCardBtn: document.getElementById('printIdCardBtn'),
+    cardPhotoImg: document.getElementById('cardPhotoImg'),
+    cardMemberName: document.getElementById('cardMemberName'),
+    cardAppNumber: document.getElementById('cardAppNumber'),
+    cardMemberRole: document.getElementById('cardMemberRole'),
+    cardMemberMandal: document.getElementById('cardMemberMandal'),
+    cardMemberVillage: document.getElementById('cardMemberVillage'),
+    cardIssuedDate: document.getElementById('cardIssuedDate'),
+    lookupCardModal: document.getElementById('lookupCardModal'),
+    lookupCardTriggerBtn: document.getElementById('lookupCardTriggerBtn'),
+    lookupModalClose: document.getElementById('lookupModalClose'),
+    searchMemberBtn: document.getElementById('searchMemberBtn'),
+    lookupInput: document.getElementById('lookupInput'),
+    lookupAlert: document.getElementById('lookupAlert')
   };
 
   /* ==========================================================================
@@ -1217,10 +1346,14 @@
     const emailInput = document.getElementById('formEmail');
     const messageInput = document.getElementById('formMessage');
 
-    if (nameInput) nameInput.placeholder = lang === 'te' ? "మీ పూర్తి పేరు వ్రాయండి" : "Enter your full name";
-    if (phoneInput) phoneInput.placeholder = lang === 'te' ? "10 అంకెల మొబైల్ నంబర్" : "10-digit mobile number";
+    if (nameInput) nameInput.placeholder = lang === 'te' ? "మీ పూర్తి పేరు నమోదు చేయండి" : "Enter your full name";
+    if (phoneInput) phoneInput.placeholder = lang === 'te' ? "10 అంకెల మొబైల్ సంఖ్య" : "10-digit mobile number";
     if (emailInput) emailInput.placeholder = lang === 'te' ? "మీ ఈమెయిల్ (ఉంటే)" : "name@example.com";
-    if (messageInput) messageInput.placeholder = lang === 'te' ? "మీ ప్రాంత సమస్య లేదా మీరు ఏ విధంగా పాల్గొనాలనుకుంటున్నారో తెలపండి..." : "Describe your area issue or how you would like to participate...";
+    if (messageInput) messageInput.placeholder = lang === 'te' ? "గ్రామ సమస్య లేదా మీ ప్రాధాన్యత గురించి రాయండి..." : "Mention any specific village concern or skill you bring to the party...";
+
+    if (typeof populateMandalDropdown === 'function') {
+      populateMandalDropdown(lang);
+    }
   }
 
   /* ==========================================================================
@@ -1572,104 +1705,469 @@
      10. GET INVOLVED / PARTICIPATION FORM
      ========================================================================== */
 
+  /* ==========================================================================
+     10. KARYAKARTHA MEMBERSHIP & PROVISIONAL ID CARD SYSTEM
+     ========================================================================== */
+
+  const locationsData = {
+    state: { nameEn: "Telangana", nameTe: "తెలంగాణ" },
+    district: { nameEn: "Nalgonda", nameTe: "నల్గొండ" },
+    constituency: { acNumber: 86, nameEn: "Devarakonda (ST)", nameTe: "దేవరకొండ (ఎస్టీ)" },
+    mandals: [
+      {
+        id: "deverakonda",
+        nameEn: "Devarakonda (Town & Mandal)",
+        nameTe: "దేవరకొండ (పట్టణం & మండలం)",
+        villages: [
+          { nameEn: "Devarakonda Municipality", nameTe: "దేవరకొండ పురపాలిక" },
+          { nameEn: "Mudigonda", nameTe: "ముదిగొండ" },
+          { nameEn: "Tatikole", nameTe: "తాటికోల్" },
+          { nameEn: "Padamati Pally", nameTe: "పడమటి పల్లి" },
+          { nameEn: "Kodadpally", nameTe: "కోదాడపల్లి" },
+          { nameEn: "Kacharam", nameTe: "కాచారం" },
+          { nameEn: "Mupparam", nameTe: "ముప్పారం" },
+          { nameEn: "Kotabavi", nameTe: "కోటబావి" },
+          { nameEn: "Seripally", nameTe: "శేరిపల్లి" },
+          { nameEn: "Gabbada", nameTe: "గబ్బడ" },
+          { nameEn: "Chinthapalli Thanda", nameTe: "చింతపల్లి తండా" },
+          { nameEn: "Gundlapally Road Thanda", nameTe: "గుండ్లపల్లి రోడ్ తండా" }
+        ]
+      },
+      {
+        id: "chintapally",
+        nameEn: "Chintapally",
+        nameTe: "చింతపల్లి",
+        villages: [
+          { nameEn: "Chintapally", nameTe: "చింతపల్లి" },
+          { nameEn: "Kurmedu", nameTe: "కుర్మేడు" },
+          { nameEn: "Vinjamur", nameTe: "వింజమూరు" },
+          { nameEn: "Godkondla", nameTe: "గొడ్కొండ్ల" },
+          { nameEn: "Madhapur", nameTe: "మాధాపూర్" },
+          { nameEn: "Polepally", nameTe: "పోలేపల్లి" },
+          { nameEn: "Mallareddypally", nameTe: "మల్లారెడ్డిపల్లి" },
+          { nameEn: "Godumakunta", nameTe: "గోదుమకుంట" },
+          { nameEn: "Theddu", nameTe: "తెద్దు" },
+          { nameEn: "Nasikallu", nameTe: "నాసికల్లు" },
+          { nameEn: "Thammadapally", nameTe: "తమ్మడపల్లి" }
+        ]
+      },
+      {
+        id: "gundlapally",
+        nameEn: "Gundlapally (Dindi)",
+        nameTe: "గుండ్లపల్లి (దిండి)",
+        villages: [
+          { nameEn: "Gundlapally", nameTe: "గుండ్లపల్లి" },
+          { nameEn: "Dindi", nameTe: "దిండి" },
+          { nameEn: "Errapally", nameTe: "ఎర్రపల్లి" },
+          { nameEn: "Toggudigudem", nameTe: "తొగ్గుడిగూడెం" },
+          { nameEn: "Gonaboinapally", nameTe: "గొనబోయినపల్లి" },
+          { nameEn: "Akkenepally", nameTe: "అక్కెనెపల్లి" },
+          { nameEn: "Kondapuram", nameTe: "కొండపురం" },
+          { nameEn: "Cherukupally", nameTe: "చెరుకుపల్లి" },
+          { nameEn: "Venkannagudem", nameTe: "వెంకన్నగూడెం" },
+          { nameEn: "Padamati Tanda", nameTe: "పడమటి తండా" }
+        ]
+      },
+      {
+        id: "chandampet",
+        nameEn: "Chandampet",
+        nameTe: "చందంపేట",
+        villages: [
+          { nameEn: "Chandampet", nameTe: "చందంపేట" },
+          { nameEn: "Nerabail", nameTe: "నేరబైల్" },
+          { nameEn: "Kambalapally", nameTe: "కంబాలపల్లి" },
+          { nameEn: "Theddu", nameTe: "తెద్దు" },
+          { nameEn: "Yellapuram", nameTe: "యెల్లాపురం" },
+          { nameEn: "Thummalabavi", nameTe: "తుమ్మలబావి" },
+          { nameEn: "Pogilla", nameTe: "పొగిళ్ల" },
+          { nameEn: "Polepally", nameTe: "పోలేపల్లి" },
+          { nameEn: "Medaram", nameTe: "మేడారం" },
+          { nameEn: "Gopathanda", nameTe: "గోపాతండా" }
+        ]
+      },
+      {
+        id: "peddhadisherlapally",
+        nameEn: "Peddhadisherlapally (P.A. Pally)",
+        nameTe: "పెద్దఅడిశర్లపల్లి (పి.ఎ. పల్లి)",
+        villages: [
+          { nameEn: "Peddhadisherlapally", nameTe: "పెద్దఅడిశర్లపల్లి" },
+          { nameEn: "Tirumalagiri", nameTe: "తిరుమలగిరి" },
+          { nameEn: "Badlapuram", nameTe: "బడ్లాపురం" },
+          { nameEn: "Anjanepally", nameTe: "అంజనేపల్లి" },
+          { nameEn: "Vaddipatla", nameTe: "వద్దిపట్ల" },
+          { nameEn: "Gannerlapally", nameTe: "గన్నెర్లపల్లి" },
+          { nameEn: "Gudapur", nameTe: "గూడపూర్" },
+          { nameEn: "Rangareddygudem", nameTe: "రంగారెడ్డిగూడెం" },
+          { nameEn: "Chintakuntla", nameTe: "చింతకుంట" },
+          { nameEn: "Ramadugu", nameTe: "రామడుగు" }
+        ]
+      },
+      {
+        id: "kondamallepally",
+        nameEn: "Kondamallepally",
+        nameTe: "కొండమల్లేపల్లి",
+        villages: [
+          { nameEn: "Kondamallepally", nameTe: "కొండమల్లేపల్లి" },
+          { nameEn: "Chinnathanda", nameTe: "చిన్నతండా" },
+          { nameEn: "Vardhamankota", nameTe: "వర్ధమానకోట" },
+          { nameEn: "Narsimhulagudem", nameTe: "నర్సింహులగూడెం" },
+          { nameEn: "Donabanda", nameTe: "దోనబండ" },
+          { nameEn: "Balanagar", nameTe: "బాలానగర్" },
+          { nameEn: "Kothapally", nameTe: "కొత్తపల్లి" },
+          { nameEn: "Chennaram", nameTe: "చెన్నారం" },
+          { nameEn: "Kolmuntalapally", nameTe: "కొల్ముంతలపల్లి" }
+        ]
+      },
+      {
+        id: "gudipally",
+        nameEn: "Gudipally",
+        nameTe: "గుడిపల్లి",
+        villages: [
+          { nameEn: "Gudipally", nameTe: "గుడిపల్లి" },
+          { nameEn: "Chintalapalem", nameTe: "చింతలపాలెం" },
+          { nameEn: "Gangadevipally", nameTe: "గంగాదేవిపల్లి" },
+          { nameEn: "Boddugudem", nameTe: "బొద్దుగూడెం" },
+          { nameEn: "Rajannagudem", nameTe: "రాజన్నగూడెం" },
+          { nameEn: "Mittapally", nameTe: "మిట్టపల్లి" },
+          { nameEn: "Rayangudem", nameTe: "రాయన్‌గూడెం" },
+          { nameEn: "Laxmapuram", nameTe: "లక్ష్మాపురం" }
+        ]
+      },
+      {
+        id: "neredugommu",
+        nameEn: "Neredugommu",
+        nameTe: "నేరేడుగొమ్ము",
+        villages: [
+          { nameEn: "Neredugommu", nameTe: "నేరేడుగొమ్ము" },
+          { nameEn: "Bachapuram", nameTe: "బాచాపురం" },
+          { nameEn: "Buggathanda", nameTe: "బుగ్గతండా" },
+          { nameEn: "Yellammagudem", nameTe: "ఎల్లమ్మగూడెం" },
+          { nameEn: "Kothapally", nameTe: "కొత్తపల్లి" },
+          { nameEn: "Viraswamigudem", nameTe: "వీరస్వామిగూడెం" },
+          { nameEn: "Pendlipakala", nameTe: "పెండ్లిపాకాల" },
+          { nameEn: "Bakkalingayapally", nameTe: "బక్కలింగాయపల్లి" }
+        ]
+      }
+    ],
+    adjacentBelts: [
+      {
+        id: "gurrampode",
+        nameEn: "Gurrampode (Bordering Belt)",
+        nameTe: "గుర్రంపోడు (సరిహద్దు ప్రాంతం)",
+        villages: [
+          { nameEn: "Gurrampode", nameTe: "గుర్రంపోడు" },
+          { nameEn: "Koppole", nameTe: "కొప్పోలు" },
+          { nameEn: "Chamalapally", nameTe: "చామలపల్లి" }
+        ]
+      }
+    ]
+  };
+
+  let uploadedPhotoBase64 = "";
+
+  function populateMandalDropdown(lang) {
+    if (!elements.formMandal) return;
+    const currentVal = elements.formMandal.value;
+    elements.formMandal.innerHTML = '';
+
+    const defaultOpt = document.createElement('option');
+    defaultOpt.value = '';
+    defaultOpt.textContent = lang === 'te' ? '-- మండలాన్ని ఎంచుకోండి --' : '-- Choose Mandal --';
+    elements.formMandal.appendChild(defaultOpt);
+
+    const allMandals = [...locationsData.mandals, ...locationsData.adjacentBelts];
+    allMandals.forEach(m => {
+      const opt = document.createElement('option');
+      opt.value = m.id;
+      opt.textContent = lang === 'te' ? m.nameTe : m.nameEn;
+      if (m.id === currentVal) opt.selected = true;
+      elements.formMandal.appendChild(opt);
+    });
+
+    if (currentVal) {
+      populateVillageDropdown(currentVal, lang);
+    }
+  }
+
+  function populateVillageDropdown(mandalId, lang) {
+    if (!elements.formVillage) return;
+    const currentVal = elements.formVillage.value;
+    elements.formVillage.innerHTML = '';
+
+    if (!mandalId) {
+      elements.formVillage.disabled = true;
+      const opt = document.createElement('option');
+      opt.value = '';
+      opt.textContent = lang === 'te' ? '-- ముందుగా మండలాన్ని ఎంచుకోండి --' : '-- First Select Mandal --';
+      elements.formVillage.appendChild(opt);
+      return;
+    }
+
+    elements.formVillage.disabled = false;
+    const defaultOpt = document.createElement('option');
+    defaultOpt.value = '';
+    defaultOpt.textContent = lang === 'te' ? '-- గ్రామం / తండాను ఎంచుకోండి --' : '-- Choose Village / Thanda --';
+    elements.formVillage.appendChild(defaultOpt);
+
+    const allMandals = [...locationsData.mandals, ...locationsData.adjacentBelts];
+    const targetMandal = allMandals.find(m => m.id === mandalId);
+
+    if (targetMandal && targetMandal.villages) {
+      targetMandal.villages.forEach(v => {
+        const opt = document.createElement('option');
+        const vName = lang === 'te' ? v.nameTe : v.nameEn;
+        opt.value = vName;
+        opt.textContent = vName;
+        if (vName === currentVal) opt.selected = true;
+        elements.formVillage.appendChild(opt);
+      });
+    }
+
+    const otherOpt = document.createElement('option');
+    otherOpt.value = lang === 'te' ? 'ఇతర గ్రామం / తండా' : 'Other Hamlet / Thanda';
+    otherOpt.textContent = lang === 'te' ? 'ఇతర గ్రామం / తండా' : 'Other Hamlet / Thanda';
+    elements.formVillage.appendChild(otherOpt);
+  }
+
+  function renderIdCard(member) {
+    if (elements.cardPhotoImg) {
+      elements.cardPhotoImg.src = member.photo || '/assets/logo-english-official.png';
+    }
+    if (elements.cardMemberName) {
+      elements.cardMemberName.textContent = member.name || 'Member Name';
+    }
+    if (elements.cardAppNumber) {
+      elements.cardAppNumber.textContent = member.id || 'SSIP-86-2026-0000';
+    }
+    if (elements.cardMemberRole) {
+      elements.cardMemberRole.textContent = member.category || 'Grassroots Karyakartha';
+    }
+
+    const allMandals = [...locationsData.mandals, ...locationsData.adjacentBelts];
+    const mObj = allMandals.find(m => m.id === member.mandal);
+    const mandalLabel = mObj ? (currentLang === 'te' ? mObj.nameTe : mObj.nameEn) : member.mandal;
+
+    if (elements.cardMemberMandal) {
+      elements.cardMemberMandal.textContent = mandalLabel;
+    }
+    if (elements.cardMemberVillage) {
+      elements.cardMemberVillage.textContent = member.village;
+    }
+    if (elements.cardIssuedDate) {
+      elements.cardIssuedDate.textContent = member.issuedDate;
+    }
+  }
+
+  function openKaryakarthaCardModal() {
+    if (!elements.karyakarthaCardModal) return;
+    elements.karyakarthaCardModal.classList.add('open');
+    elements.karyakarthaCardModal.setAttribute('aria-hidden', 'false');
+  }
+
+  function openLookupModal() {
+    if (!elements.lookupCardModal) return;
+    if (elements.lookupAlert) {
+      elements.lookupAlert.style.display = 'none';
+      elements.lookupAlert.textContent = '';
+    }
+    if (elements.lookupInput) elements.lookupInput.value = '';
+    elements.lookupCardModal.classList.add('open');
+    elements.lookupCardModal.setAttribute('aria-hidden', 'false');
+    elements.lookupInput?.focus();
+  }
+
+  function handleMemberLookup() {
+    const rawVal = elements.lookupInput?.value.trim() || '';
+    if (!rawVal) {
+      if (elements.lookupAlert) {
+        elements.lookupAlert.className = 'form-status-alert error';
+        elements.lookupAlert.textContent = currentLang === 'te' 
+          ? 'దయచేసి మొబైల్ నంబర్ లేదా అప్లికేషన్ నంబర్ నమోదు చేయండి.' 
+          : 'Please enter a mobile number or application ID.';
+        elements.lookupAlert.style.display = 'block';
+      }
+      return;
+    }
+
+    const cleanedPhone = rawVal.replace(/[^0-9]/g, '');
+    let found = null;
+
+    try {
+      const saved = JSON.parse(localStorage.getItem('ssip_karyakartha_members') || '[]');
+      found = saved.find(m => 
+        (cleanedPhone.length === 10 && m.phone === cleanedPhone) ||
+        (m.id && m.id.toLowerCase() === rawVal.toLowerCase()) ||
+        (m.phone && m.phone === rawVal)
+      );
+    } catch (e) {
+      console.warn('LocalStorage lookup error', e);
+    }
+
+    if (found) {
+      closeAllModals();
+      renderIdCard(found);
+      openKaryakarthaCardModal();
+    } else {
+      if (elements.lookupAlert) {
+        elements.lookupAlert.className = 'form-status-alert error';
+        elements.lookupAlert.textContent = currentLang === 'te'
+          ? 'ఈ నంబర్‌తో నమోదు చేసుకున్న దరఖాస్తు కనుగొనబడలేదు. దయచేసి వివరాలు సరిచూసుకోండి లేదా కొత్తగా నమోదు చేసుకోండి.'
+          : 'No application record found for this number or ID. Please check the details or register afresh.';
+        elements.lookupAlert.style.display = 'block';
+      }
+    }
+  }
+
   function initInvolvementForm() {
     if (!elements.involvementForm) return;
 
-    elements.involvementForm.addEventListener('submit', async function (e) {
-  e.preventDefault();
+    populateMandalDropdown(currentLang);
 
-  const name = document.getElementById('formName').value.trim();
-  const phone = document.getElementById('formPhone').value.trim();
-  const email = document.getElementById('formEmail')?.value.trim() || '';
-  const mandal = document.getElementById('formMandal').value;
-  const category = document.getElementById('formCategory').value;
-  const message = document.getElementById('formMessage').value.trim();
-  const consent = document.getElementById('formConsent').checked;
+    // Mandal selection change -> populate villages
+    elements.formMandal?.addEventListener('change', function () {
+      populateVillageDropdown(this.value, currentLang);
+    });
 
-  // Validation
-  if (!name || !phone || !mandal || !category || !message || !consent) {
-    showFormAlert(
-      'error',
-      translations[currentLang].form_error_msg
-    );
-    return;
-  }
+    // Photograph File upload handler
+    elements.formPhoto?.addEventListener('change', function () {
+      const file = this.files?.[0];
+      if (!file) return;
 
-  // Validate Indian mobile number
-  const phoneDigits = phone.replace(/[^0-9]/g, '');
+      if (!file.type.startsWith('image/')) {
+        showFormAlert('error', currentLang === 'te' ? 'దయచేసి సరైన ఫోటో ఫైల్ (JPG/PNG) ఎంచుకోండి.' : 'Please select a valid image file (JPG or PNG).');
+        return;
+      }
 
-  if (phoneDigits.length !== 10) {
-    showFormAlert(
-      'error',
-      currentLang === 'te'
-        ? 'దయచేసి సరైన 10 అంకెల మొబైల్ నంబర్ నమోదు చేయండి.'
-        : 'Please enter a valid 10-digit mobile number.'
-    );
-    return;
-  }
+      if (file.size > 5 * 1024 * 1024) {
+        showFormAlert('error', currentLang === 'te' ? 'ఫోటో సైజు 5MB కంటే తక్కువగా ఉండాలి.' : 'Photograph file size should be less than 5MB.');
+        return;
+      }
 
-  const submitBtn =
-    elements.involvementForm.querySelector('button[type="submit"]');
+      const reader = new FileReader();
+      reader.onload = function (evt) {
+        uploadedPhotoBase64 = evt.target.result;
+        if (elements.formPhotoPreview) {
+          elements.formPhotoPreview.src = uploadedPhotoBase64;
+          elements.formPhotoPreview.style.display = 'block';
+        }
+        if (elements.photoPlaceholder) {
+          elements.photoPlaceholder.style.display = 'none';
+        }
+        if (elements.clearPhotoBtn) {
+          elements.clearPhotoBtn.style.display = 'inline-block';
+        }
+      };
+      reader.readAsDataURL(file);
+    });
 
-  const originalText = submitBtn.textContent;
+    // Clear photo handler
+    elements.clearPhotoBtn?.addEventListener('click', function () {
+      uploadedPhotoBase64 = "";
+      if (elements.formPhoto) elements.formPhoto.value = "";
+      if (elements.formPhotoPreview) {
+        elements.formPhotoPreview.src = "";
+        elements.formPhotoPreview.style.display = 'none';
+      }
+      if (elements.photoPlaceholder) {
+        elements.photoPlaceholder.style.display = 'flex';
+      }
+      this.style.display = 'none';
+    });
 
-  submitBtn.textContent =
-    translations[currentLang].form_submitting;
+    // Form Submission
+    elements.involvementForm.addEventListener('submit', function (e) {
+      e.preventDefault();
 
-  submitBtn.disabled = true;
+      const name = document.getElementById('formName')?.value.trim();
+      const phone = document.getElementById('formPhone')?.value.trim();
+      const email = document.getElementById('formEmail')?.value.trim() || '';
+      const mandal = elements.formMandal?.value || '';
+      const village = elements.formVillage?.value || '';
+      const category = document.getElementById('formCategory')?.value || 'Grassroots Karyakartha';
+      const message = document.getElementById('formMessage')?.value.trim() || '';
+      const consent = document.getElementById('formConsent')?.checked;
 
-  try {
-    const response = await fetch(
-      'https://sarva-samruddhi-api.onrender.com/api/submissions',
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
+      // Validation
+      if (!name || !phone || !mandal || !village || !consent) {
+        showFormAlert('error', translations[currentLang].form_error_msg);
+        return;
+      }
+
+      const phoneDigits = phone.replace(/[^0-9]/g, '');
+      if (phoneDigits.length !== 10) {
+        showFormAlert(
+          'error',
+          currentLang === 'te'
+            ? 'దయచేసి సరైన 10 అంకెల మొబైల్ నంబర్ నమోదు చేయండి.'
+            : 'Please enter a valid 10-digit mobile number.'
+        );
+        return;
+      }
+
+      const submitBtn = elements.involvementForm.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      submitBtn.textContent = translations[currentLang].form_submitting;
+      submitBtn.disabled = true;
+
+      setTimeout(() => {
+        const randomNum = Math.floor(1000 + Math.random() * 9000);
+        const appId = `SSIP-86-2026-${randomNum}`;
+        const now = new Date();
+        const dateStr = now.toLocaleDateString(currentLang === 'te' ? 'te-IN' : 'en-IN', {
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric'
+        });
+
+        const newMember = {
+          id: appId,
           name: name,
-          mobile: phoneDigits,
+          phone: phoneDigits,
           email: email,
           mandal: mandal,
-          participationType: category,
+          village: village,
+          category: category,
           message: message,
-          consent: consent
-        })
-      }
-    );
+          photo: uploadedPhotoBase64 || '/assets/logo-english-official.png',
+          issuedDate: dateStr,
+          status: 'PROVISIONAL — PENDING VERIFICATION'
+        };
 
-    const data = await response.json();
+        try {
+          let saved = JSON.parse(localStorage.getItem('ssip_karyakartha_members') || '[]');
+          saved = saved.filter(m => m.phone !== phoneDigits);
+          saved.unshift(newMember);
+          localStorage.setItem('ssip_karyakartha_members', JSON.stringify(saved));
+        } catch (err) {
+          console.warn('LocalStorage save error:', err);
+        }
 
-    if (!response.ok || !data.success) {
-      throw new Error(
-        data.message || 'Submission failed'
-      );
-    }
+        renderIdCard(newMember);
+        openKaryakarthaCardModal();
 
-    // Successful submission
-    showFormAlert(
-      'success',
-      `${translations[currentLang].form_success_msg}${data.referenceId}`
-    );
+        showFormAlert('success', `${translations[currentLang].form_success_msg}${appId}`);
 
-    // Clear form
-    elements.involvementForm.reset();
+        elements.involvementForm.reset();
+        uploadedPhotoBase64 = "";
+        if (elements.formPhotoPreview) {
+          elements.formPhotoPreview.src = "";
+          elements.formPhotoPreview.style.display = 'none';
+        }
+        if (elements.photoPlaceholder) {
+          elements.photoPlaceholder.style.display = 'flex';
+        }
+        if (elements.clearPhotoBtn) {
+          elements.clearPhotoBtn.style.display = 'none';
+        }
+        if (elements.formVillage) {
+          elements.formVillage.innerHTML = `<option value="">-- ${currentLang === 'te' ? 'ముందుగా మండలాన్ని ఎంచుకోండి' : 'First Select Mandal'} --</option>`;
+          elements.formVillage.disabled = true;
+        }
 
-  } catch (error) {
-    console.error('Submission error:', error);
-
-    showFormAlert(
-      'error',
-      currentLang === 'te'
-        ? 'సమర్పణ విఫలమైంది. దయచేసి కొంత సమయం తర్వాత మళ్లీ ప్రయత్నించండి.'
-        : 'Unable to submit your request right now. Please try again later.'
-    );
-
-  } finally {
-    submitBtn.textContent = originalText;
-    submitBtn.disabled = false;
-  }
-});
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+      }, 300);
+    });
   }
 
   function showFormAlert(type, message) {
@@ -1792,6 +2290,24 @@
     elements.objectiveModalClose?.addEventListener('click', closeAllModals);
     elements.updateModalClose?.addEventListener('click', closeAllModals);
     elements.genericModalClose?.addEventListener('click', closeAllModals);
+    elements.cardModalClose?.addEventListener('click', closeAllModals);
+    elements.closeCardModalBottomBtn?.addEventListener('click', closeAllModals);
+    elements.lookupModalClose?.addEventListener('click', closeAllModals);
+
+    // Karyakartha ID Card Modal Actions
+    elements.printIdCardBtn?.addEventListener('click', () => {
+      window.print();
+    });
+
+    // Lookup Modal Triggers
+    elements.lookupCardTriggerBtn?.addEventListener('click', openLookupModal);
+    elements.searchMemberBtn?.addEventListener('click', handleMemberLookup);
+    elements.lookupInput?.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        handleMemberLookup();
+      }
+    });
 
     // Lightbox Controls
     elements.lightboxClose?.addEventListener('click', closeLightbox);
